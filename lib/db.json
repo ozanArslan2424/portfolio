@@ -1,0 +1,25 @@
+{
+  "projects": [
+    {
+      "key": 1,
+      "title": "TPÖÇG Blog Makinesi v2",
+      "description": "# TPÖÇG Blog Makinesi \nTürk Psikoloji Öğrencileri Çalışma Grubu (TPÖÇG) Yayın Tasarım Ekibi'nde 1 sene boyunca liderlik yaparken en sık ve en hızlı halletmemiz gereken iş Instagram gönderileri için blog yazılarının şablonunu hazırlamaktı. \nBunun gibi basit bir iş için bizden önceki ekip Photoshop kullandığı için bizim de her seferinde Photoshop kullanmamız gerekiyordu. \nİnanılmaz büyük bir zaman kaybı olduğunu düşündüğüm bu durumu çözmek için \"Keşke sadece bu işi yapan bir uygulama olsaydı,\" diye düşünürken front-end yolculuğumun başlayacağının farkında bile değildim. \n\nİlk versiyonunu HTML, CSS ve JavaScript ile yaptığım Blog Makinesi'nin ikinci versiyonu olan bu uygulama benim ilk web uygulamam. \n## Amaç \n\nUygulamanın amacı, yayın tasarım ekibinin Instagram için blog gönderilerini oluşturmayı daha kolay hale getirmektir. \n## Kullanım: \nBlog gönderi türleri için kontrol panelleri ekranın sol tarafında ve gönderi sayfalarının önizlemeleri ekranın sağ tarafındadır. \n1. Arka plan resmini yükle, \n2. Kontrol panelinden uygun renkleri seç, \n3. Metni doğrudan önizleme kısmına yapıştır, \n4. Tasarım tamamlandığında indir. \n## Bağlılıklar: \n- @fortawesome/fontawesome-svg-core: version 6.4.2 \n- @fortawesome/free-solid-svg-icons: version 6.4.2 \n- @fortawesome/react-fontawesome: version 0.2.0 \n- @nextui-org/react: version 2.2.0 \n- framer-motion: version 10.16.4 \n- html-to-image: version 1.11.11 \n- next-themes: version 0.2.1 \n- react: version 18.2.0 \n- react-dom: version 18.2.0 \n- react-router-dom: version 6.18.0",
+      "image": "path/to/image1.jpg",
+      "githubRepo": "https://github.com/ozanArslan2424/blogmachine"
+    },
+    {
+      "key": 2,
+      "title": "TPÖÇG Kart Tanıtım Sitesi",
+      "description": "# TPÖÇG Kart \nTPÖÇG Kart, Türk Psikoloji Öğrencileri Çalışma Grubu Sponsorluk Ekibi ve Mali İşler Koordinatörlüğü'nün ortak bir çalışmasıdır. TPÖÇG üyelerine anlaşmalı işletmelerde indirim sağlaması amacını taşır. \nKart, bildiğim kadarıyla hiçbir zaman fiziksel hale getirilmese de kartı tanıtmak ve dijital versiyonunu oluşturmak amacıyla sorumlu ekip arkadaşım tarafından görevlendirilmiştim ve bu siteyi de bu sebeple oluşturdum. \nSaf HTML, CSS ve JavaScript kullanmanın yanında html2canvas CDN'ini kullanarak kart sahiplerinin kendilerine özel kar görselini kaydedebilmesini amaçladım. \n\nEn amatör çalışmam olmasına rağmen hem sitenin hem de kartın tasarımını kendim yapmış olmam nedeniyle kalbimde yeri olan bir proje. \n## Kullanım: \nTanıtım amaçlı bir site olduğu için 3 adet section'dan oluşuyor: hero, discounts ve application. \n1. Hero section küçük bir açıklama içeriyor. \n2. Discounts section'da geçerli olduğu yerlerin listesi var. \n3. Application section'daki forma ad soyad yazılıp yanındaki \"oluştur\" butonuna tıklandığında isme özel kart görseli oluşturuluyor ve cihaza kaydediliyor. \n## Hatalar: \nBu projeyi yaparken henüz çok az şey bildiğim için portfolyoma koymadan önce bazı değişiklikler yaptım: \n- HTML etiketlerinde ciddi anlamda sıkıntılı pratikler vardı. \n- \"img\" etiketlerinin \"alt\" property'lerini boş bırakmıştım. \n- \"form\" elementi hatalı kullanılmıştı, submit function yerine butona eventlistener atanmıştı. \n- Position relative ve absolute pratiklerim hatalıydı. \n- Responsive bir tasarım yoktu. \nBunların hepsini düzeltmeye çalışırken geçmişimi çok da değiştirmemek amacıyla bazı hatalara dokunmadım (örneğin bütün verilerin script.js dosyasında object olarak saklanıyor olması), kodu incelemekte serbestsiniz ancak şu anki yeteneklerimi göstermediğine emin olabilirsiniz. \n## Bağlılıklar: \n- html2canvas: version 1.4.0",
+      "image": "path/to/image2.jpg",
+      "githubRepo": "https://ozanarslan2424.github.io/tpocgkart/"
+    },
+    {
+      "key": 3,
+      "title": "Project 3",
+      "description": "Description of Project 3",
+      "image": "path/to/image3.jpg",
+      "githubRepo": "https://github.com/username/repo3"
+    }
+  ]
+}
