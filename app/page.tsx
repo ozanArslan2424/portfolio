@@ -2,7 +2,7 @@
 import { Section } from "@/components/motion";
 import { AltContactForm } from "@/components/sections/contact";
 import { Profile } from "@/components/sections/profile";
-import { AltProjects, Projects } from "@/components/sections/projects";
+import { Projects } from "@/components/sections/projects";
 import { TechStack } from "@/components/sections/tech";
 import { useState } from "react";
 import { PiXBold } from "react-icons/pi";
