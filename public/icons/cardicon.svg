@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 87.06 31.76">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: #a0144f;
+      }
+
+      .cls-2 {
+        font-family: BestermindRegular, Bestermind;
+        font-size: 17.94px;
+      }
+
+      .cls-4 {
+        letter-spacing: .03em;
+      }
+
+      .cls-5 {
+        letter-spacing: .06em;
+      }
+
+      .cls-6 {
+        opacity: .76;
+      }
+
+      .cls-3 {
+        font-family: MicrosoftSansSerif, 'Microsoft Sans Serif';
+        font-size: 1.43px;
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        letter-spacing: -.05em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g class="cls-6">
+      <text class="cls-2" transform="translate(48.44 21.43)"><tspan class="cls-4" x="0" y="0">K</tspan><tspan class="cls-5" x="14.23" y="0">a</tspan><tspan class="cls-7" x="21.78" y="0">r</tspan><tspan x="25.41" y="0">t</tspan></text>
+      <g>
+        <path class="cls-1" d="m7.81,18.09v1.4h-2.15s-2.64-.02-2.86-2.73v-5.19H0v-1.38h7.48v1.38h-3.19v4.62c0,2.02,1.93,1.9,1.93,1.9h1.59Z"/>
+        <path class="cls-1" d="m12.46,10.19h-4.13v12.4h1.46v-3.12h2.67c2.45,0,4.43-2.08,4.43-4.64s-1.98-4.64-4.43-4.64Zm0,7.89h-2.67v-6.38h2.67c1.57.13,2.81,1.51,2.81,3.19s-1.23,3.06-2.81,3.19Z"/>
+        <path class="cls-1" d="m42.23,10.19c-2.45,0-4.43,2.08-4.43,4.64s1.98,4.64,4.43,4.64h2.66c-.1,1.83-1.91,1.72-1.91,1.72h-1.58v1.39h2.13s.68,0,1.38-.36c.67-.35,1.35-1.02,1.46-2.34v-9.69h-4.13Zm2.67,7.89h-2.67c-1.57-.13-2.81-1.51-2.81-3.19s1.23-3.06,2.81-3.19h2.67v6.38Z"/>
+        <path class="cls-1" d="m22.69,10.19c-2.69,0-4.87,2.08-4.87,4.64s2.18,4.64,4.87,4.64,4.87-2.08,4.87-4.64-2.18-4.64-4.87-4.64Zm0,7.79c-1.82,0-3.3-1.41-3.3-3.14s1.48-3.14,3.3-3.14,3.3,1.41,3.3,3.14-1.48,3.14-3.3,3.14Z"/>
+        <path class="cls-1" d="m33.47,17.97c-1.74,0-3.15-1.41-3.15-3.14s1.41-3.14,3.15-3.14c1.04,0,1.97.51,2.54,1.29l1.23-.86c-.84-1.17-2.22-1.93-3.77-1.93-2.57,0-4.65,2.08-4.65,4.64s2.08,4.64,4.65,4.64c1.53,0,2.88-.74,3.73-1.87l-1.23-.87c-.57.75-1.48,1.24-2.5,1.24Z"/>
+        <ellipse class="cls-1" cx="20.52" cy="8.63" rx=".77" ry=".81"/>
+        <ellipse class="cls-1" cx="24.59" cy="8.63" rx=".77" ry=".81"/>
+        <ellipse class="cls-1" cx="36.85" cy="20.69" rx=".77" ry=".81"/>
+        <text class="cls-3" transform="translate(10.65 21.43) scale(.95 1)"><tspan x="0" y="0">Türk Psikoloji Öğrencileri Çalışma Grubu</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
