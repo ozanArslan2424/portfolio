@@ -2,7 +2,7 @@
 import { Section } from "@/components/motion";
 import { AltContactForm } from "@/components/sections/contact";
 import { Profile } from "@/components/sections/profile";
-import { Projects } from "@/components/sections/projects";
+import { AltProjects, Projects } from "@/components/sections/projects";
 import { TechStack } from "@/components/sections/tech";
 import { useState } from "react";
 import { PiXBold } from "react-icons/pi";
@@ -22,15 +22,12 @@ export default function Page() {
 
         {open && (
           <Section delay={0}>
-            <button onClick={showContact} className="absolute right-3 top-3">
-              <PiXBold />
-            </button>
             <AltContactForm showContact={showContact} />
           </Section>
         )}
 
         <Section delay={2}>
-          <article>
+          <article className="prose prose-sm max-w-full dark:prose-invert sm:prose-base">
             <p>
               Merhaba, adım Ozan Arslan. <br /> <b>ODTÜ Psikoloji</b> mezunuyum.
               2023&apos;ten beri web geliştirmeyle ilgileniyorum. Kendi kendime

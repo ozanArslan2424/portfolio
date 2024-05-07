@@ -1,5 +1,5 @@
 var nodemailer = require("nodemailer");
-//-----------------------------------------------------------------------------
+//-----------------------------------------------------------------------------//
 export async function sendMail(subject: string, email: string, text: string) {
   const modifiedSubject = `Portfolyo iletişim: ${subject}`;
   const modifiedContent = `Portfolyondan yeni mesaj geldi! \n\nGönderen: ${email}\n\n${text}`;

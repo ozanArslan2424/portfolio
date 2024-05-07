@@ -7,7 +7,7 @@ import Link from "next/link";
 import { Dialog, DialogContent, DialogTrigger } from "../dialog";
 
 export const Projects = () => {
-  return PROJECTS.map((project, index) => (
+  return PROJECTS.sort((a, b) => a.order - b.order).map((project, index) => (
     <Section delay={index + 3} key={index}>
       <ProjectCard project={project} />
     </Section>
@@ -17,25 +17,25 @@ export const Projects = () => {
 const ProjectCard = ({ project }: { project: Project }) => {
   return (
     <>
-      <div className="grid grid-flow-col grid-cols-[6rem_auto] gap-8 md:grid-cols-[9rem_auto]">
+      <div className="flex gap-8">
         <Image
           src={project.icon}
           alt={project.title}
           height={200}
           width={200}
-          className="bg-card aspect-square size-24 rounded-xl border md:size-36"
+          className="aspect-square size-24 rounded-xl border bg-card md:size-36"
         />
-        <div className="flex flex-col gap-4">
+        <div className="space-y-2 md:space-y-4">
           <h2 className="text-res-lg font-bold">{project.title}</h2>
           <div className="flex items-center gap-4">
             {project.live && (
-              <Link href={project.live} className={"link"}>
+              <Link href={project.live} className="link">
                 <Link2Icon />
                 <span>Canlı</span>
               </Link>
             )}
             {project.repo && (
-              <Link href={project.repo} className={"link"}>
+              <Link href={project.repo} className="link">
                 <GitHubLogoIcon />
                 <span>GitHub</span>
               </Link>
@@ -44,7 +44,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
         </div>
       </div>
 
-      <article className="prose prose-sm sm:prose-base dark:prose-invert max-w-full py-4">
+      <article className="prose prose-sm max-w-full py-4 dark:prose-invert sm:prose-base">
         <p>{project.description}</p>
         <p>
           <strong>Teknolojiler: </strong>
@@ -56,6 +56,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
           ))}
         </p>
       </article>
+
       <div className="flex gap-4 overflow-x-scroll">
         {project.images &&
           project.images.map((image, index) => (
@@ -73,18 +74,18 @@ const ImageDialog = ({ src, alt }: { src: string; alt: string }) => {
         <Image
           src={src}
           alt={alt}
-          height={200}
-          width={200}
+          height={800}
+          width={800}
           className="h-36 rounded-lg border"
         />
       </DialogTrigger>
-      <DialogContent className=" max-w-[800px] p-0">
+      <DialogContent className="max-w-[800px] p-0">
         <Image
           src={src}
           alt={alt}
           height={800}
           width={800}
-          className="h-auto w-[800px] rounded-xl border"
+          className="h-auto w-[800px] rounded-md"
         />
       </DialogContent>
     </Dialog>
