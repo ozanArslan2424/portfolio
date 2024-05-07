@@ -74,7 +74,7 @@ export const portfolioMeta: Project = {
   tech: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
   icon: "/ozan.jpg",
   live: "https://ozanarslan.vercel.app",
-  repo: "",
+  repo: "https://github.com/ozanArslan2424/portfolio",
 };
 
 export const PROJECTS: Project[] = [
