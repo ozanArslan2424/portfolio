@@ -12,6 +12,22 @@ export type Project = {
   }[];
 };
 
+export const TECH = [
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "TypeScript",
+  "React",
+  "Next.js",
+  "Tailwind CSS",
+  "Git",
+  "Markdown",
+  "Figma",
+  "Illustrator",
+  "Photoshop",
+  "Inkscape",
+];
+
 export const PROJECTS: Project[] = [
   {
     order: 1,

@@ -1,41 +1,45 @@
 "use client";
-import { Section } from "@/components/motion";
-import { PROJECTS, Project } from "@/lib/db";
+import { Motion } from "@/components/motion";
 import { GitHubLogoIcon, Link2Icon } from "@radix-ui/react-icons";
 import Image from "next/image";
 import Link from "next/link";
 import { Dialog, DialogContent, DialogTrigger } from "../dialog";
 
-export const Projects = () => {
-  return PROJECTS.sort((a, b) => a.order - b.order).map((project, index) => (
-    <Section delay={index + 3} key={index}>
-      <ProjectCard project={project} />
-    </Section>
-  ));
+type Project = {
+  title: string;
+  description: string;
+  tech: string[];
+  live: string;
+  repo: string;
+  images: {
+    name: string;
+    src: string;
+  }[];
 };
 
-const ProjectCard = ({ project }: { project: Project }) => {
-  return (
-    <>
+export const Projects = ({ projects }: { projects: Project[] }) => {
+  return projects.map((project, index) => (
+    <Motion className="card" delay={index + 3} key={index}>
       <div className="flex gap-8">
         <Image
-          src={project.icon}
+          src={project.images[0].src}
           alt={project.title}
           height={200}
           width={200}
           className="aspect-square size-24 rounded-xl border bg-card md:size-36"
         />
+
         <div className="space-y-2 md:space-y-4">
           <h2 className="text-res-lg font-bold">{project.title}</h2>
           <div className="flex items-center gap-4">
             {project.live && (
-              <Link href={project.live} className="link">
+              <Link href={project.live} className="link secondary">
                 <Link2Icon />
-                <span>Canlı</span>
+                <span>Demo</span>
               </Link>
             )}
             {project.repo && (
-              <Link href={project.repo} className="link">
+              <Link href={project.repo} className="link secondary">
                 <GitHubLogoIcon />
                 <span>GitHub</span>
               </Link>
@@ -47,7 +51,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
       <article className="prose prose-sm max-w-full py-4 dark:prose-invert sm:prose-base">
         <p>{project.description}</p>
         <p>
-          <strong>Teknolojiler: </strong>
+          <strong>Tech: </strong>
           {project.tech.map((tech, index) => (
             <span key={index}>
               {tech}
@@ -58,13 +62,15 @@ const ProjectCard = ({ project }: { project: Project }) => {
       </article>
 
       <div className="flex gap-4 overflow-x-scroll">
-        {project.images &&
-          project.images.map((image, index) => (
-            <ImageDialog key={index} src={image.url} alt={image.name} />
-          ))}
+        {project.images.length > 1 &&
+          project.images
+            .slice(1)
+            .map((image, index) => (
+              <ImageDialog key={index} src={image.src} alt={image.name} />
+            ))}
       </div>
-    </>
-  );
+    </Motion>
+  ));
 };
 
 const ImageDialog = ({ src, alt }: { src: string; alt: string }) => {

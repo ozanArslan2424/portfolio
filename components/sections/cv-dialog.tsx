@@ -1,17 +1,15 @@
 "use client";
+import { Dialog, DialogContent, DialogTrigger } from "@/components/dialog";
 import { useState } from "react";
-import { Dialog, DialogContent, DialogTrigger } from "../dialog";
 
 type Lang = "en" | "tr";
 
-export const CvDialog = () => {
+export const CvDialog = ({ children }: { children: React.ReactNode }) => {
   const [lang, setLang] = useState<Lang>("tr");
 
   return (
     <Dialog>
-      <DialogTrigger asChild>
-        <button className="text-xl font-bold tracking-tight">CV</button>
-      </DialogTrigger>
+      <DialogTrigger asChild>{children}</DialogTrigger>
       <DialogContent>
         <div className="flex flex-row items-center gap-2">
           <button
