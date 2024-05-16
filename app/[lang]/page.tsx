@@ -23,12 +23,12 @@ export default async function Page({
   const { page } = await getDictionary(lang);
 
   return (
-    <div className="container flex flex-col gap-4 px-4 py-8 md:gap-8 md:px-6 lg:flex-row">
-      <aside className="top-8 flex h-max max-w-full flex-col gap-4 lg:sticky lg:max-w-[40%]">
+    <div className="container grid grid-flow-row gap-4 px-4 py-8 md:grid-flow-col md:grid-cols-[40%_auto] md:gap-8 md:px-4">
+      <aside className="top-8 flex h-max max-w-full flex-col gap-4 lg:sticky ">
         <Motion className="card space-y-4" delay={1}>
           <header className="flex gap-8">
             <Image
-              className="aspect-square size-36 rounded-xl md:size-48"
+              className="aspect-square size-[30%] rounded-xl"
               src="/images/ozan.jpg"
               alt="Ozan Arslan"
               width={200}
@@ -37,7 +37,7 @@ export default async function Page({
 
             <div className="flex w-full flex-col justify-between">
               <div>
-                <h1 className="text-res-xl font-bold">Ozan Arslan</h1>
+                <h1 className="text-res-lg font-bold">Ozan Arslan</h1>
                 <p className="text-res-sm font-semibold text-muted-foreground">
                   {page.about.title}
                 </p>
@@ -48,12 +48,12 @@ export default async function Page({
               </div>
             </div>
           </header>
-          <nav className="flex items-center gap-2">
+          <nav className="grid grid-flow-col grid-cols-2 grid-rows-2 gap-2 lg:grid-cols-4 lg:grid-rows-1 ">
             <Link
               className="button secondary w-full"
               href="https://www.linkedin.com/in/ozan-arslan-214513209/"
             >
-              <PiLinkedinLogoBold />
+              <PiLinkedinLogoBold className="shrink-0" />
               <span>{page.about.links.linkedin}</span>
             </Link>
 
@@ -61,19 +61,19 @@ export default async function Page({
               className="button secondary w-full"
               href="https://github.com/ozanArslan2424"
             >
-              <PiGithubLogoBold />
+              <PiGithubLogoBold className="shrink-0" />
               <span>{page.about.links.github}</span>
             </Link>
 
             <CvDialog>
               <button className="button secondary w-full">
-                <PiNewspaperClippingBold />
+                <PiNewspaperClippingBold className="shrink-0" />
                 <span>{page.about.links.CV}</span>
               </button>
             </CvDialog>
             <Contact>
               <button className="button secondary w-full">
-                <PiEnvelopeBold />
+                <PiEnvelopeBold className="shrink-0" />
                 <span>{page.about.links.contact}</span>
               </button>
             </Contact>
@@ -97,7 +97,7 @@ export default async function Page({
         </div>
       </aside>
 
-      <main className="flex max-w-full flex-col gap-4 lg:max-w-[60%]">
+      <main className="flex max-w-full flex-col gap-4 ">
         <Projects projects={page.projects} />
       </main>
     </div>
