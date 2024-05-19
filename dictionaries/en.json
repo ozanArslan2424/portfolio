@@ -30,13 +30,15 @@
         "title": "Tabula Notes",
         "description": "Tabula Notes is a markdown-inspired note-taking app built for personal use. Working with notes is an indispensable habit for me and no markdown editor I've ever used met my needs. That's why I created Tabula, with the ability to scroll sideways and downwards just like notebook pages, it is ideal for my note-taking style. This app was created to meet my needs only. I may make it open to other users in the future. Those who are interested can send an invitation request from the site.",
         "tech": ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
-        "live": "https://tabula-notes.vercel.app",
-        "repo": "https://github.com/ozanArslan2424/tabula-notes",
+        "live": "https://tabulanotes.vercel.app",
+        "repo": "https://github.com/ozanArslan2424/tabula-v2",
         "images": [
           { "name": "icon", "src": "/icons/tabulaicon.svg" },
-          { "name": "Library page", "src": "/images/tabula1.png" },
+          { "name": "Library page", "src": "/images/tabula0.png" },
+          { "name": "Book page - dark", "src": "/images/tabula1.png" },
           { "name": "Book page - dark", "src": "/images/tabula2.png" },
-          { "name": "Book page - light", "src": "/images/tabula3.png" }
+          { "name": "Book page - light", "src": "/images/tabula3.png" },
+          { "name": "Mobile", "src": "/images/tabula4.jpg" }
         ]
       },
       {
