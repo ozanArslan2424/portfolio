@@ -29,11 +29,19 @@
       {
         "title": "Tabula Notes",
         "description": "Tabula Notes is a markdown-inspired note-taking app built for personal use. Working with notes is an indispensable habit for me and no markdown editor I've ever used met my needs. That's why I created Tabula, with the ability to scroll sideways and downwards just like notebook pages, it is ideal for my note-taking style. This app was created to meet my needs only. I may make it open to other users in the future. Those who are interested can send an invitation request from the site.",
-        "tech": ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
+        "tech": [
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Vercel",
+          "Postgresql"
+        ],
         "live": "https://tabulanotes.vercel.app",
         "repo": "https://github.com/ozanArslan2424/tabula-v2",
         "images": [
           { "name": "icon", "src": "/icons/tabulaicon.svg" },
+          { "name": "Landing page", "src": "/images/tabula4.png" },
+          { "name": "Landing page", "src": "/images/tabula5.png" },
           { "name": "Library page", "src": "/images/tabula0.png" },
           { "name": "Book page - dark", "src": "/images/tabula1.png" },
           { "name": "Book page - dark", "src": "/images/tabula2.png" },
@@ -60,6 +68,14 @@
           { "name": "Other templates 1", "src": "/images/blogv2dark2.png" },
           { "name": "Other templates 2", "src": "/images/blogv2dark3.png" }
         ]
+      },
+      {
+        "title": "Lecture Tool - Freedom",
+        "description": "Lecture Tool is a web application that I created to help me present a lecture on freedom more dynamically. It has a simple and clean design that focuses on the person figure at the center of the screen. The person figure is animated and can be moved around the screen with the arrow keys. The lecture mainly consists of the unseen relationship between boundaries and behavioral freedom.",
+        "tech": ["Next.js", "TypeScript", "Tailwind CSS"],
+        "repo": "https://github.com/ozanArslan2424/freedom-lecture",
+        "live": "",
+        "images": []
       },
       {
         "title": "TPÖÇG Card Website",

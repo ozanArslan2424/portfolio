@@ -29,11 +29,19 @@
       {
         "title": "Tabula Notlar",
         "description": "Tabula Notlar, kişisel kullanım için oluşturulmuş markdown esintili bir not alma uygulamasıdır. Not tutarak çalışmak benim için vazgeçilmez bir alışkanlık ve kullandığım hiçbir markdown düzenleyici tam ihtiyaçlarımı karşılamıyordu. Bu sebeple Tabula'yı oluşturdum. Aynı defter sayfaları gibi yana ve aşağı doğru ilerleme özelliğiyle ihtiyaçlarım için ideal. Bu uygulama yalnızca benim ihtiyaçlarımı karşılamak için oluşturuldu. İlerleyen zamanlarda belki başka kullanıcılara açık hale getirebilirim. İlgilenenler siteden davet isteği yollayabilirler.",
-        "tech": ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
+        "tech": [
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Vercel",
+          "Postgresql"
+        ],
         "live": "https://tabulanotes.vercel.app",
         "repo": "https://github.com/ozanArslan2424/tabula-v2",
         "images": [
           { "name": "icon", "src": "/icons/tabulaicon.svg" },
+          { "name": "Landing page", "src": "/images/tabula4.png" },
+          { "name": "Landing page", "src": "/images/tabula5.png" },
           { "name": "Library page", "src": "/images/tabula0.png" },
           { "name": "Book page - dark", "src": "/images/tabula1.png" },
           { "name": "Book page - dark", "src": "/images/tabula2.png" },
@@ -60,6 +68,14 @@
           { "name": "Other templates 1", "src": "/images/blogv2dark2.png" },
           { "name": "Other templates 2", "src": "/images/blogv2dark3.png" }
         ]
+      },
+      {
+        "title": "Eğitim Aleti - Özgürlük",
+        "description": "Eğitim Aleti, özgürlük üzerine bir dersi daha dinamik bir şekilde sunmama yardımcı olması için oluşturduğum bir web uygulamasıdır. Ekranın ortasındaki insan figürüne odaklanan basit ve temiz bir tasarıma sahiptir. İnsan figürü animasyonludur ve ok tuşları ile ekranda hareket ettirilebilir. Ders esas olarak sınırlar ve davranışsal özgürlük arasındaki görünmeyen ilişkiyi içermektedir.",
+        "tech": ["Next.js", "TypeScript", "Tailwind CSS"],
+        "repo": "https://github.com/ozanArslan2424/freedom-lecture",
+        "live": "",
+        "images": []
       },
       {
         "title": "TPÖÇG Kart Sitesi",

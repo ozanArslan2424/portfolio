@@ -21,13 +21,19 @@ export const Projects = ({ projects }: { projects: Project[] }) => {
   return projects.map((project, index) => (
     <Motion className="card" delay={index + 3} key={index}>
       <div className="flex gap-8">
-        <Image
-          src={project.images[0].src}
-          alt={project.title}
-          height={200}
-          width={200}
-          className="aspect-square size-24 rounded-xl border bg-card md:size-36"
-        />
+        {project.images.length > 0 ? (
+          <Image
+            src={project.images[0].src}
+            alt={project.title}
+            height={200}
+            width={200}
+            className="aspect-square size-24 rounded-xl border bg-card md:size-36"
+          />
+        ) : (
+          <div className="flex aspect-square size-24 items-center justify-center rounded-xl border bg-card text-muted-foreground md:size-36">
+            No Icon
+          </div>
+        )}
 
         <div className="space-y-2 md:space-y-4">
           <h2 className="text-res-lg font-bold">{project.title}</h2>
