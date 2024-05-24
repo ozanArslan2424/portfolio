@@ -23,7 +23,7 @@ export default async function Page({
   const { page } = await getDictionary(lang);
 
   return (
-    <div className="container grid grid-flow-row gap-4 px-4 py-8 md:grid-flow-col md:grid-cols-[40%_auto] md:gap-8 md:px-4">
+    <div className="container grid grid-flow-row gap-4 px-4 py-8 md:grid-flow-col md:grid-cols-[40%_auto] md:gap-6 md:px-4">
       <aside className="top-8 flex h-max max-w-full flex-col gap-4 lg:sticky ">
         <Motion className="card space-y-4" delay={1}>
           <header className="flex gap-8">
@@ -37,8 +37,8 @@ export default async function Page({
 
             <div className="flex w-full flex-col justify-between">
               <div>
-                <h1 className="text-res-lg font-bold">Ozan Arslan</h1>
-                <p className="text-res-sm font-semibold text-muted-foreground">
+                <h1 className="text-2xl font-bold sm:text-4xl">Ozan Arslan</h1>
+                <p className="text-xs font-semibold text-muted-foreground sm:text-sm">
                   {page.about.title}
                 </p>
               </div>
@@ -79,7 +79,7 @@ export default async function Page({
             </Contact>
           </nav>
 
-          <article className="prose prose-sm max-w-full dark:prose-invert sm:prose-base">
+          <article className="prose hyphens-auto text-wrap break-words text-sm dark:prose-invert sm:text-base">
             <p>{page.about.description}</p>
           </article>
         </Motion>
@@ -89,7 +89,7 @@ export default async function Page({
             <Motion
               delay={index + 1}
               key={index}
-              className="h-max cursor-default rounded-lg border bg-card/80 px-3 py-1.5 text-res-xs font-semibold shadow-sm"
+              className="h-max cursor-default rounded-lg border bg-card/80 px-3 py-1.5 text-xs font-semibold shadow-sm"
             >
               {tech}
             </Motion>

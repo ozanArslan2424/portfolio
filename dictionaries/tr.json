@@ -104,7 +104,7 @@
         "tech": ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
         "repo": "https://github.com/ozanArslan2424/portfolio",
         "live": "https://ozanarslan.vercel.app",
-        "images": [{ "name": "icon", "src": "/ozan.jpg" }]
+        "images": []
       }
     ]
   }

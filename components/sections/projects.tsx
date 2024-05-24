@@ -20,7 +20,7 @@ type Project = {
 export const Projects = ({ projects }: { projects: Project[] }) => {
   return projects.map((project, index) => (
     <Motion className="card" delay={index + 3} key={index}>
-      <div className="flex gap-8">
+      <div className="flex gap-4 sm:gap-8">
         {project.images.length > 0 ? (
           <Image
             src={project.images[0].src}
@@ -30,13 +30,14 @@ export const Projects = ({ projects }: { projects: Project[] }) => {
             className="aspect-square size-24 rounded-xl border bg-card md:size-36"
           />
         ) : (
-          <div className="flex aspect-square size-24 items-center justify-center rounded-xl border bg-card text-muted-foreground md:size-36">
+          <div className="flex aspect-square size-24 shrink-0 items-center justify-center rounded-xl border bg-card text-muted-foreground md:size-36">
             No Icon
           </div>
         )}
 
         <div className="space-y-2 md:space-y-4">
-          <h2 className="text-res-lg font-bold">{project.title}</h2>
+          <h2 className="text-2xl font-bold sm:text-3xl">{project.title}</h2>
+
           <div className="flex flex-wrap items-center gap-4">
             {project.live && (
               <Link href={project.live} className="link secondary">
@@ -54,19 +55,18 @@ export const Projects = ({ projects }: { projects: Project[] }) => {
         </div>
       </div>
 
-      <article className="prose prose-sm max-w-full py-4 dark:prose-invert sm:prose-base">
+      <article className="prose max-w-full hyphens-auto text-wrap break-words py-4 text-sm dark:prose-invert sm:text-base">
         <p>{project.description}</p>
-        <p>
-          <strong>Tech: </strong>
-          {project.tech.map((tech, index) => (
-            <span key={index}>
-              {tech}
-              {index !== project.tech.length - 1 && ", "}
-            </span>
-          ))}
-        </p>
       </article>
-
+      <p className="pb-4 text-sm sm:text-base">
+        <strong>Tech: </strong>
+        {project.tech.map((tech, index) => (
+          <span key={index}>
+            {tech}
+            {index !== project.tech.length - 1 && ", "}
+          </span>
+        ))}
+      </p>
       <div className="flex gap-4 overflow-x-scroll">
         {project.images.length > 1 &&
           project.images

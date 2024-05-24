@@ -14,7 +14,7 @@ export const CvDialog = ({ children }: { children: React.ReactNode }) => {
         <div className="flex flex-row items-center gap-2">
           <button
             onClick={() => setLang(lang === "en" ? "tr" : "en")}
-            className="rounded-sm border px-2 py-1 text-res-sm font-semibold shadow-sm"
+            className="rounded-sm border px-2 py-1 text-sm font-semibold shadow-sm"
           >
             {lang === "en" ? "TR" : "EN"}
           </button>
