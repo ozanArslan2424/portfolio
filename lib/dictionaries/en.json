@@ -4,8 +4,8 @@
       "title": "Psychologist, Web Developer",
       "description": "Hello, my name is Ozan Arslan. I graduated from METU Psychology. I've been interested in web development since 2023. I taught myself HTML, CSS and JavaScript and realized that I really enjoyed it. I started using React at the suggestion of my engineer friends. I'm currently developing full-stack web applications using Next.js. My next step is to develop universal mobile applications with Expo.",
       "links": {
-        "github": "https://www.linkedin.com/in/ozan-arslan-214513209/",
-        "linkedin": "https://github.com/ozanArslan2424",
+        "github": "https://github.com/ozanArslan2424",
+        "linkedin": "https://www.linkedin.com/in/ozan-arslan-214513209/",
         "contact": "mailto:ozanarslanwork@gmail.com"
       },
       "tech": [
