@@ -2,7 +2,7 @@
 import { MoonIcon, SunIcon } from "@radix-ui/react-icons";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
-import { LoadingIcon } from "./loading-icon";
+import { LoadingIcon } from "./ui/loading-icon";
 
 export const ThemeToggle = () => {
   const [mounted, setMounted] = useState(false);
@@ -12,17 +12,14 @@ export const ThemeToggle = () => {
 
   if (!mounted)
     return (
-      <button
-        className="hover:border-border rounded-full border border-transparent p-2 hover:bg-transparent"
-        disabled
-      >
+      <button className="circle-button h-7 w-7 sm:h-8 sm:w-8" disabled>
         <LoadingIcon />
       </button>
     );
 
   return (
     <button
-      className="hover:border-border rounded-full border border-transparent p-2 hover:bg-transparent"
+      className="circle-button h-7 w-7 sm:h-8 sm:w-8"
       onClick={() => setTheme(resolvedTheme === "light" ? "dark" : "light")}
     >
       {resolvedTheme === "light" ? <MoonIcon /> : <SunIcon />}

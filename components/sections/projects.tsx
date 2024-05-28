@@ -1,9 +1,9 @@
 "use client";
-import { Motion } from "@/components/motion";
+import { Motion } from "@/components/ui/motion";
 import { GitHubLogoIcon, Link2Icon } from "@radix-ui/react-icons";
 import Image from "next/image";
 import Link from "next/link";
-import { Dialog, DialogContent, DialogTrigger } from "../dialog";
+import { Dialog, DialogContent, DialogTrigger } from "../ui/dialog";
 
 type Project = {
   title: string;

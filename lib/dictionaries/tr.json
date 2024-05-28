@@ -1,0 +1,120 @@
+{
+  "page": {
+    "about": {
+      "title": "Psikolog, Web Geliştirici",
+      "description": "Merhaba, adım Ozan Arslan. ODTÜ Psikoloji mezunuyum. 2023'ten beri web geliştirmeyle ilgileniyorum. Kendi kendime HTML, CSS ve JavaScript öğrendim ve bu işten çok keyif aldığımı fark ettim. Mühendis arkadaşlarımın önerisiyle de React kullanmaya başladım. Şu anda Next.js kullanarak full-stack web uygulamaları geliştiriyorum. Sırada Expo ile evrensel mobil uygulamalar geliştirmek var.",
+      "links": {
+        "github": "https://www.linkedin.com/in/ozan-arslan-214513209/",
+        "linkedin": "https://github.com/ozanArslan2424",
+        "contact": "mailto:ozanarslanwork@gmail.com"
+      },
+      "tech": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Next.js",
+        "Tailwind CSS",
+        "Git",
+        "Markdown",
+        "Figma",
+        "Illustrator",
+        "Photoshop",
+        "Inkscape"
+      ]
+    },
+    "tabs": {
+      "projects": {
+        "sectionTitle": "Projeler",
+        "list": [
+          {
+            "title": "Tabula Notlar",
+            "description": "Tabula Notlar, kişisel kullanım için oluşturulmuş markdown esintili bir not alma uygulamasıdır. Not tutarak çalışmak benim için vazgeçilmez bir alışkanlık ve kullandığım hiçbir markdown düzenleyici tam ihtiyaçlarımı karşılamıyordu. Bu sebeple Tabula'yı oluşturdum. Aynı defter sayfaları gibi yana ve aşağı doğru ilerleme özelliğiyle ihtiyaçlarım için ideal. Bu uygulama yalnızca benim ihtiyaçlarımı karşılamak için oluşturuldu. İlerleyen zamanlarda belki başka kullanıcılara açık hale getirebilirim. İlgilenenler siteden davet isteği yollayabilirler.",
+            "tech": [
+              "Next.js",
+              "TypeScript",
+              "Tailwind CSS",
+              "Vercel",
+              "Postgresql"
+            ],
+            "live": "https://tabulanotes.vercel.app",
+            "repo": "https://github.com/ozanArslan2424/tabula-v2",
+            "images": [
+              { "name": "icon", "src": "/icons/tabulaicon.svg" },
+              { "name": "Landing page", "src": "/images/tabula4.png" },
+              { "name": "Landing page", "src": "/images/tabula5.png" },
+              { "name": "Library page", "src": "/images/tabula0.png" },
+              { "name": "Book page - dark", "src": "/images/tabula1.png" },
+              { "name": "Book page - dark", "src": "/images/tabula2.png" },
+              { "name": "Book page - light", "src": "/images/tabula3.png" },
+              { "name": "Mobile", "src": "/images/tabula4.jpg" }
+            ]
+          },
+          {
+            "title": "TPÖÇG Blog Makinesi v2",
+            "description": "Blog Makinesi'nin Vite + React ile oluşturulmuş ikinci versiyonu. Türk Psikoloji Öğrencileri Çalışma Grubu (TPÖÇG) Yayın Tasarım Ekibi'nde 1 sene boyunca liderlik yaparken en sık ve hızlı halletmemiz gereken iş Instagram gönderileri için blog yazılarının şablonunu hazırlamaktı. Bunun gibi basit bir iş için bizden her seferinde Photoshop kullanmamız bekleniyordu. Büyük bir zaman kaybı olduğunu düşündüm ve bu durumu çözmek için bu uygulamanın ilk versiyonunu yaptım. Tasarımı daha güzel olmasının yanında React ile yapıldığı için daha hızlı ve güvenilir bir uygulama. Ayrıca yeni eklediğim \"sıfırla\", \"karanlık mod\" ve diğer blog paylaşımı şablonları ile daha kullanışlı bir hal aldı.",
+            "tech": ["Vite", "React", "JavaScript", "NextUI", "GitHub Pages"],
+            "repo": "https://github.com/ozanArslan2424/blogmachine-v2",
+            "live": "https://ozanarslan2424.github.io/blogmachine-v2/",
+            "images": [
+              { "name": "icon", "src": "/icons/blogicon.svg" },
+              {
+                "name": "Home page - dark",
+                "src": "/images/blogv2dark1.png"
+              },
+              {
+                "name": "Home page - light",
+                "src": "/images/blogv2light.png"
+              },
+              { "name": "Other templates 1", "src": "/images/blogv2dark2.png" },
+              { "name": "Other templates 2", "src": "/images/blogv2dark3.png" }
+            ]
+          },
+          {
+            "title": "Eğitim Aleti - Özgürlük",
+            "description": "Eğitim Aleti, özgürlük üzerine bir dersi daha dinamik bir şekilde sunmama yardımcı olması için oluşturduğum bir web uygulamasıdır. Ekranın ortasındaki insan figürüne odaklanan basit ve temiz bir tasarıma sahiptir. İnsan figürü animasyonludur ve ok tuşları ile ekranda hareket ettirilebilir. Ders esas olarak sınırlar ve davranışsal özgürlük arasındaki görünmeyen ilişkiyi içermektedir.",
+            "tech": ["Next.js", "TypeScript", "Tailwind CSS"],
+            "repo": "https://github.com/ozanArslan2424/freedom-lecture",
+            "live": "",
+            "images": []
+          },
+          {
+            "title": "TPÖÇG Kart Sitesi",
+            "description": "TPÖÇG Kart, TPÖÇG Sponsorluk Ekibi ve Mali İşler Koordinatörlüğü'nün ortak bir çalışmasıdır. TPÖÇG üyelerine anlaşmalı işletmelerde indirim sağlaması amacını taşır. Kart, bildiğim kadarıyla hiçbir zaman fiziksel hale getirilmese de kartı tanıtmak ve dijital versiyonunu oluşturmak amacıyla, sorumlu ekip arkadaşım tarafından görevlendirilmiştim ve bu siteyi de bu sebeple oluşturdum. Saf HTML, CSS ve JavaScript kullanmanın yanında html2canvas CDN'ini kullanarak kart sahiplerinin kendilerine özel kart görselini kaydedebilmesini amaçladım.",
+            "tech": ["HTML", "CSS", "JavaScript", "GitHub Pages"],
+            "repo": "https://github.com/ozanArslan2424/tpocgkart",
+            "live": "https://ozanarslan2424.github.io/tpocgkart/",
+            "images": [
+              { "name": "icon", "src": "/icons/cardicon.svg" },
+              { "name": "Intro animation", "src": "/images/card1.png" },
+              { "name": "Home page 1", "src": "/images/card2.png" },
+              { "name": "Home page 2", "src": "/images/card3.png" }
+            ]
+          },
+          {
+            "title": "TPÖÇG Blog Makinesi v1",
+            "description": "Sadece HTML, CSS ve JavaScript kullanarak yapılmış bu web uygulaması benim ilk projem. Türk Psikoloji Öğrencileri Çalışma Grubu (TPÖÇG) Yayın Tasarım Ekibi'nde 1 sene boyunca liderlik yaparken en sık ve hızlı halletmemiz gereken iş Instagram gönderileri için blog yazılarının şablonunu hazırlamaktı. Bunun gibi basit bir iş için bizden her seferinde Photoshop kullanmamız bekleniyordu. Büyük bir zaman kaybı olduğunu düşündüm ve bu durumu çözmek için bu uygulamayı yaptım. Bu proje uzun sürmeden yetersiz kaldı ve 2. versiyonunu yapmaya başladım.",
+            "tech": ["HTML", "CSS", "JavaScript", "GitHub Pages"],
+            "repo": "https://github.com/ozanArslan2424/Blog-Machine/tree/main-edits",
+            "live": "https://ozanarslan2424.github.io/Blog-Machine/",
+            "images": [{ "name": "icon", "src": "/icons/blogicon.svg" }]
+          },
+          {
+            "title": "Portfolyo",
+            "description": "Şu anda bulunduğumuz site. Bu proje, benim kendimi tanıtmak ve yaptığım işleri sergilemek amacıyla oluşturduğum bir portfolyo sitesi. Tasarım konusunda oldukça minimalist bir yaklaşım sergiledim ve içeriklerin ön planda olmasını sağladım.",
+            "tech": ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
+            "repo": "https://github.com/ozanArslan2424/portfolio",
+            "live": "https://ozanarslan.vercel.app",
+            "images": []
+          }
+        ]
+      },
+      "cv": {
+        "sectionTitle": "Özgeçmiş",
+        "src": "/cv-tr.pdf",
+        "title": "Türkçe CV"
+      }
+    }
+  }
+}

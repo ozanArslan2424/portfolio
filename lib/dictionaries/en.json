@@ -1,0 +1,120 @@
+{
+  "page": {
+    "about": {
+      "title": "Psychologist, Web Developer",
+      "description": "Hello, my name is Ozan Arslan. I graduated from METU Psychology. I've been interested in web development since 2023. I taught myself HTML, CSS and JavaScript and realized that I really enjoyed it. I started using React at the suggestion of my engineer friends. I'm currently developing full-stack web applications using Next.js. My next step is to develop universal mobile applications with Expo.",
+      "links": {
+        "github": "https://www.linkedin.com/in/ozan-arslan-214513209/",
+        "linkedin": "https://github.com/ozanArslan2424",
+        "contact": "mailto:ozanarslanwork@gmail.com"
+      },
+      "tech": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Next.js",
+        "Tailwind CSS",
+        "Git",
+        "Markdown",
+        "Figma",
+        "Illustrator",
+        "Photoshop",
+        "Inkscape"
+      ]
+    },
+    "tabs": {
+      "projects": {
+        "sectionTitle": "Projects",
+        "list": [
+          {
+            "title": "Tabula Notes",
+            "description": "Tabula Notes is a markdown-inspired note-taking app built for personal use. Working with notes is an indispensable habit for me and no markdown editor I've ever used met my needs. That's why I created Tabula, with the ability to scroll sideways and downwards just like notebook pages, it is ideal for my note-taking style. This app was created to meet my needs only. I may make it open to other users in the future. Those who are interested can send an invitation request from the site.",
+            "tech": [
+              "Next.js",
+              "TypeScript",
+              "Tailwind CSS",
+              "Vercel",
+              "Postgresql"
+            ],
+            "live": "https://tabulanotes.vercel.app",
+            "repo": "https://github.com/ozanArslan2424/tabula-v2",
+            "images": [
+              { "name": "icon", "src": "/icons/tabulaicon.svg" },
+              { "name": "Landing page", "src": "/images/tabula4.png" },
+              { "name": "Landing page", "src": "/images/tabula5.png" },
+              { "name": "Library page", "src": "/images/tabula0.png" },
+              { "name": "Book page - dark", "src": "/images/tabula1.png" },
+              { "name": "Book page - dark", "src": "/images/tabula2.png" },
+              { "name": "Book page - light", "src": "/images/tabula3.png" },
+              { "name": "Mobile", "src": "/images/tabula4.jpg" }
+            ]
+          },
+          {
+            "title": "TPÖÇG Blog Machine v2",
+            "description": "This is the second version of Blog Machine, created with Vite + React. When I was leading the Publication Design Team of the Turkish Psychology Students Working Group ( TPÖÇG) for a year, the most frequent and urgent task we had to do was to prepare the templates of blog posts for Instagram posts. For a simple task like this, we were expected to use Photoshop every time. I thought it was a huge waste of time and created the first version of this app to solve this situation. Not only is the design more elegant, but it's also faster and more reliable because it's built with React. It also became more useful with the new 'reset', 'dark mode' and other blog post templates I added.",
+            "tech": ["Vite", "React", "JavaScript", "NextUI", "GitHub Pages"],
+            "repo": "https://github.com/ozanArslan2424/blogmachine-v2",
+            "live": "https://ozanarslan2424.github.io/blogmachine-v2/",
+            "images": [
+              { "name": "icon", "src": "/icons/blogicon.svg" },
+              {
+                "name": "Home page - dark",
+                "src": "/images/blogv2dark1.png"
+              },
+              {
+                "name": "Home page - light",
+                "src": "/images/blogv2light.png"
+              },
+              { "name": "Other templates 1", "src": "/images/blogv2dark2.png" },
+              { "name": "Other templates 2", "src": "/images/blogv2dark3.png" }
+            ]
+          },
+          {
+            "title": "Lecture Tool - Freedom",
+            "description": "Lecture Tool is a web application that I created to help me present a lecture on freedom more dynamically. It has a simple and clean design that focuses on the person figure at the center of the screen. The person figure is animated and can be moved around the screen with the arrow keys. The lecture mainly consists of the unseen relationship between boundaries and behavioral freedom.",
+            "tech": ["Next.js", "TypeScript", "Tailwind CSS"],
+            "repo": "https://github.com/ozanArslan2424/freedom-lecture",
+            "live": "",
+            "images": []
+          },
+          {
+            "title": "TPÖÇG Card Website",
+            "description": "TPÖÇG Card is a joint work of TPÖÇG Sponsorship Team and Financial Affairs Coordinatorship. It aims to provide TPÖÇG members with discounts at contracted businesses. Although the card has never been made physical as far as I know, I was assigned by my team mate in charge to promote the card and create a digital version of it, and that's why I created this website. In addition to using pure HTML, CSS and JavaScript, I used html2canvas CDN to enable cardholders to download their personalized card image.",
+            "tech": ["HTML", "CSS", "JavaScript", "GitHub Pages"],
+            "repo": "https://github.com/ozanArslan2424/tpocgkart",
+            "live": "https://ozanarslan2424.github.io/tpocgkart/",
+            "images": [
+              { "name": "icon", "src": "/icons/cardicon.svg" },
+              { "name": "Intro animation", "src": "/images/card1.png" },
+              { "name": "Home page 1", "src": "/images/card2.png" },
+              { "name": "Home page 2", "src": "/images/card3.png" }
+            ]
+          },
+          {
+            "title": "TPÖÇG Blog Machine v1",
+            "description": "My first project is this web application made using only HTML, CSS and JavaScript. When I was leading the Publication Design Team of the Turkish Psychology Students Working Group ( TPÖÇG) for a year, the most frequent and urgent task we had to do was to prepare the templates of blog posts for Instagram posts. For a simple task like this, we were expected to use Photoshop every time. I thought it was a huge waste of time and created this app to solve this situation. This project soon became inadequate and I started making the 2nd version.",
+            "tech": ["HTML", "CSS", "JavaScript", "GitHub Pages"],
+            "repo": "https://github.com/ozanArslan2424/Blog-Machine/tree/main-edits",
+            "live": "https://ozanarslan2424.github.io/Blog-Machine/",
+            "images": [{ "name": "icon", "src": "/icons/blogicon.svg" }]
+          },
+          {
+            "title": "Portfolio",
+            "description": "The website we are currently on. This project is a portfolio site that I created to introduce myself and showcase my work. I took a very minimalist approach to the design and let the content take center stage.",
+            "tech": ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
+            "repo": "https://github.com/ozanArslan2424/portfolio",
+            "live": "https://ozanarslan.vercel.app",
+            "images": []
+          }
+        ]
+      },
+      "cv": {
+        "sectionTitle": "Resume",
+        "src": "/cv-en.pdf",
+        "title": "English CV"
+      }
+    }
+  }
+}
