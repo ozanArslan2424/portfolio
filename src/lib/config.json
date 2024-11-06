@@ -41,12 +41,12 @@
       "repo": "https://github.com/ozanArslan2424/tabula-v2",
       "images": [
         { "name": "icon", "src": "/icons/tabulaicon.svg" },
-        { "name": "Landing page", "src": "/images/tabula4.jpg" },
-        { "name": "Landing page", "src": "/images/tabula5.jpg" },
-        { "name": "Library page", "src": "/images/tabula0.jpg" },
-        { "name": "Book page - dark", "src": "/images/tabula1.jpg" },
-        { "name": "Book page - dark", "src": "/images/tabula2.jpg" },
-        { "name": "Book page - light", "src": "/images/tabula3.jpg" }
+        { "name": "Landing page", "src": "/webp/tabula4.webp" },
+        { "name": "Landing page", "src": "/webp/tabula5.webp" },
+        { "name": "Library page", "src": "/webp/tabula0.webp" },
+        { "name": "Book page - dark", "src": "/webp/tabula1.webp" },
+        { "name": "Book page - dark", "src": "/webp/tabula2.webp" },
+        { "name": "Book page - light", "src": "/webp/tabula3.webp" }
       ]
     },
     {
@@ -65,14 +65,14 @@
         { "name": "icon", "src": "/icons/blogicon.svg" },
         {
           "name": "Home page - dark",
-          "src": "/images/blogv2dark1.jpg"
+          "src": "/webp/blogv2dark1.webp"
         },
         {
           "name": "Home page - light",
-          "src": "/images/blogv2light.jpg"
+          "src": "/webp/blogv2light.webp"
         },
-        { "name": "Other templates 1", "src": "/images/blogv2dark2.jpg" },
-        { "name": "Other templates 2", "src": "/images/blogv2dark3.jpg" }
+        { "name": "Other templates 1", "src": "/webp/blogv2dark2.webp" },
+        { "name": "Other templates 2", "src": "/webp/blogv2dark3.webp" }
       ]
     },
     {
@@ -104,9 +104,9 @@
       "live": "https://ozanarslan2424.github.io/tpocgkart/",
       "images": [
         { "name": "icon", "src": "/icons/cardicon.svg" },
-        { "name": "Intro animation", "src": "/images/card1.jpg" },
-        { "name": "Home page 1", "src": "/images/card2.jpg" },
-        { "name": "Home page 2", "src": "/images/card3.jpg" }
+        { "name": "Intro animation", "src": "/webp/card1.webp" },
+        { "name": "Home page 1", "src": "/webp/card2.webp" },
+        { "name": "Home page 2", "src": "/webp/card3.webp" }
       ]
     },
     {

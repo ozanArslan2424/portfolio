@@ -81,9 +81,9 @@ export const Projects = () => {
                     key={i}
                     src={image.src}
                     alt={image.name}
-                    height={800}
-                    width={800}
-                    className="h-72 rounded-lg border"
+                    width={433.52}
+                    height={288}
+                    className="aspect-[154/100] h-72 rounded-lg border"
                   />
                 ))}
           </div>

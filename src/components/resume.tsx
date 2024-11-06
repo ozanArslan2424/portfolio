@@ -107,7 +107,7 @@ export default function Resume() {
               {/* IMAGE */}
               <div>
                 <img
-                  src="/images/foto.jpeg"
+                  src="/webp/foto.webp"
                   alt="Ozan Arslan"
                   width={200}
                   height={200}

@@ -16,7 +16,7 @@ export const About = () => {
           <div className="aspect-square">
             <img
               className="h-full w-full rounded-xl"
-              src="/images/foto.jpeg"
+              src="/webp/foto.webp"
               alt="Ozan Arslan"
               width={200}
               height={200}
@@ -67,12 +67,15 @@ function Links() {
     <nav className="flex gap-2">
       <a className="circle-button" href={links.linkedin}>
         <LinkedinIcon />
+        <span className="sr-only">Ozan Arslan LinkedIn</span>
       </a>
       <a className="circle-button" href={links.github}>
         <GithubIcon />
+        <span className="sr-only">Ozan Arslan GitHub</span>
       </a>
       <a className="circle-button" href={links.contact}>
         <MailIcon />
+        <span className="sr-only">Ozan Arslan Email</span>
       </a>
       <div className="w-full"></div>
       <ThemeToggle />
@@ -91,6 +94,7 @@ function LangToggle() {
     return (
       <button className="circle-button overflow-hidden" disabled>
         <Loader />
+        <span className="sr-only">Disabled language toggle</span>
       </button>
     );
 
@@ -115,6 +119,7 @@ function ThemeToggle() {
     return (
       <button className="circle-button" disabled>
         <Loader />
+        <span className="sr-only">Disabled theme toggle</span>
       </button>
     );
 
@@ -123,6 +128,9 @@ function ThemeToggle() {
       className="circle-button"
       onClick={() => setTheme(resolvedTheme === "light" ? "dark" : "light")}
     >
+      <span className="sr-only">
+        {resolvedTheme === "light" ? "Dark mode" : "Light mode"}
+      </span>
       {resolvedTheme === "light" ? (
         <svg
           width="15"
