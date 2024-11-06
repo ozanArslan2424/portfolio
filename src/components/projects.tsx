@@ -38,7 +38,7 @@ export const Projects = () => {
               </div>
             )}
 
-            <div className="space-y-2 md:space-y-4">
+            <article className="space-y-2 md:space-y-4">
               <h2 className="text-2xl font-bold sm:text-3xl">
                 {project.title}
               </h2>
@@ -57,12 +57,12 @@ export const Projects = () => {
                   </a>
                 )}
               </div>
-            </div>
+            </article>
           </div>
 
-          <article className="prose max-w-full hyphens-auto text-wrap break-words py-4 text-sm dark:prose-invert sm:text-base">
+          <div className="prose max-w-full hyphens-auto text-wrap break-words py-4 text-sm dark:prose-invert sm:text-base">
             <p>{project.description}</p>
-          </article>
+          </div>
           <p className="pb-4 text-sm sm:text-base">
             <strong>Tech: </strong>
             {project.tech.map((tech, index) => (

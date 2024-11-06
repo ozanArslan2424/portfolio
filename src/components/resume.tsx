@@ -34,76 +34,27 @@ export default function Resume() {
       transition={{ type: "spring", duration: 1, delay: 0.25 }}
     >
       <div className="print-target" ref={resumeRef}>
-        <div
-          // className="relative avenir-next aspect-[1000/1414] w-full"
-          className="avenir-next"
-          id="#resume"
-        >
-          <div
-            // className="absolute left-0 top-0 -z-10 h-32 w-full bg-muted p-6"
-            className="resume-header-bg"
-          ></div>
-          <div
-            // className="grid max-w-full grid-cols-[60%_40%] py-6"
-            className="resume-grid"
-          >
-            <main
-              //className="flex flex-col gap-y-10 px-6"
-              className="resume-main"
-            >
+        <article className="avenir-next" id="#resume">
+          <div className="resume-header-bg"></div>
+          <div className="resume-grid">
+            <main className="resume-main">
               {/* HEADER */}
-              <header>
-                <h1
-                  //className="text-3xl font-bold lg:text-6xl"
-                  className="resume-header-h1"
-                >
-                  Ozan Arslan
-                </h1>
-                <p
-                  //className="pl-1 font-semibold"
-                  className="resume-header-p"
-                >
-                  {resume.title}
-                </p>
-              </header>
+              <address>
+                <h1 className="resume-header-h1">Ozan Arslan</h1>
+                <p className="resume-header-p">{resume.title}</p>
+              </address>
               <div>
                 {/* EDUCATIONS */}
-                <section
-                  //className="pb-4"
-                  className="resume-section"
-                >
-                  <h2
-                    // className="pb-1 text-sm font-bold lg:text-base"
-                    className="resume-section-h2"
-                  >
-                    {resume.edu.title}
-                  </h2>
-                  <div
-                    // className="flex flex-col text-xs lg:text-sm"
-                    className="resume-section-div"
-                  >
+                <section className="resume-section">
+                  <h2 className="resume-section-h2">{resume.edu.title}</h2>
+                  <div className="resume-section-div">
                     {resume.edu.array.map((edu, i) => (
-                      <div
-                        key={i}
-                        // className="pb-2"
-                        className="resume-section-div-p"
-                      >
-                        <div
-                          // className="flex items-baseline justify-between"
-                          className="resume-section-div-p-r"
-                        >
-                          <h3
-                            //  className="font-semibold"
-                            className="resume-section-div-p-r-h3"
-                          >
+                      <div key={i} className="resume-section-div-p">
+                        <div className="resume-section-div-p-r">
+                          <h3 className="resume-section-div-p-r-h3">
                             {edu.name}
                           </h3>
-                          <p
-                            // className="text-right font-semibold"
-                            className="resume-section-div-p-r-p"
-                          >
-                            {edu.date}
-                          </p>
+                          <p className="resume-section-div-p-r-p">{edu.date}</p>
                         </div>
                         <p>{edu.info}</p>
                       </div>
@@ -112,48 +63,18 @@ export default function Resume() {
                 </section>
 
                 {/* EXPERIENCES */}
-                <section
-                  //className="pb-4"
-                  className="resume-section"
-                >
-                  <h2
-                    // className="pb-1 text-sm font-bold lg:text-base"
-                    className="resume-section-h2"
-                  >
-                    {resume.exp.title}
-                  </h2>
-                  <div
-                    // className="flex flex-col text-xs lg:text-sm"
-                    className="resume-section-div"
-                  >
+                <section className="resume-section">
+                  <h2 className="resume-section-h2">{resume.exp.title}</h2>
+                  <div className="resume-section-div">
                     {resume.exp.array.map((exp, i) => (
-                      <div
-                        key={i}
-                        // className="pb-2"
-                        className="resume-section-div-p"
-                      >
-                        <div
-                          // className="flex items-baseline justify-between"
-                          className="resume-section-div-p-r"
-                        >
-                          <h3
-                            //  className="font-semibold"
-                            className="resume-section-div-p-r-h3"
-                          >
+                      <div key={i} className="resume-section-div-p">
+                        <div className="resume-section-div-p-r">
+                          <h3 className="resume-section-div-p-r-h3">
                             {exp.name}
                           </h3>
-                          <p
-                            // className="text-right font-semibold"
-                            className="resume-section-div-p-r-p"
-                          >
-                            {exp.date}
-                          </p>
+                          <p className="resume-section-div-p-r-p">{exp.date}</p>
                         </div>
-                        <p
-                          lang={lang}
-                          // className="hyphens-auto"
-                          className="hyphenate"
-                        >
+                        <p lang={lang} className="hyphenate">
                           {exp.info}
                         </p>
                       </div>
@@ -162,40 +83,16 @@ export default function Resume() {
                 </section>
 
                 {/* SOCIETIES */}
-                <section
-                  //className="pb-4"
-                  className="resume-section"
-                >
-                  <h2
-                    // className="pb-1 text-sm font-bold lg:text-base"
-                    className="resume-section-h2"
-                  >
-                    {resume.soc.title}
-                  </h2>
-                  <div
-                    // className="flex flex-col text-xs lg:text-sm"
-                    className="resume-section-div"
-                  >
+                <section className="resume-section">
+                  <h2 className="resume-section-h2">{resume.soc.title}</h2>
+                  <div className="resume-section-div">
                     {resume.soc.array.map((soc, i) => (
-                      <div
-                        key={i}
-                        // className="pb-2"
-                        className="resume-section-div-p"
-                      >
-                        <div
-                          // className="flex items-baseline justify-between"
-                          className="resume-section-div-p-r"
-                        >
-                          <h3
-                            //  className="font-semibold"
-                            className="resume-section-div-p-r-h3"
-                          >
+                      <div key={i} className="resume-section-div-p">
+                        <div className="resume-section-div-p-r">
+                          <h3 className="resume-section-div-p-r-h3">
                             {soc.name}
                           </h3>
-                          <strong
-                            // className="text-right font-semibold"
-                            className="resume-section-div-p-r-p"
-                          >
+                          <strong className="resume-section-div-p-r-p">
                             {soc.date}
                           </strong>
                         </div>
@@ -206,10 +103,7 @@ export default function Resume() {
                 </section>
               </div>
             </main>
-            <aside
-              // className="space-y-10 px-6"
-              className="resume-aside"
-            >
+            <aside className="resume-aside">
               {/* IMAGE */}
               <div>
                 <img
@@ -217,42 +111,20 @@ export default function Resume() {
                   alt="Ozan Arslan"
                   width={200}
                   height={200}
-                  // className="m-auto aspect-square h-[100px] w-[100px] scale-110 rounded-full lg:h-[200px] lg:w-[200px]"
                   className="resume-image"
                 />
               </div>
               <div>
                 {/* CONTACT */}
-                <section
-                  //className="pb-4"
-                  className="resume-section"
-                >
-                  <h2
-                    // className="pb-1 text-sm font-bold lg:text-base"
-                    className="resume-section-h2"
-                  >
-                    {resume.con.title}
-                  </h2>
-                  <div
-                    // className="flex flex-col text-xs lg:text-sm"
-                    className="resume-section-div"
-                  >
-                    <p
-                      //  className="font-semibold"
-                      className="resume-section-div-p-r-h3"
-                    >
+                <section className="resume-section">
+                  <h2 className="resume-section-h2">{resume.con.title}</h2>
+                  <div className="resume-section-div">
+                    <p className="resume-section-div-p-r-h3">
                       Ankara / Türkiye
                     </p>
                     {resume.con.array.map((con, i) => (
-                      <p
-                        key={i}
-                        // className="flex items-baseline justify-between"
-                        className="resume-section-div-p-r"
-                      >
-                        <strong
-                          //  className="font-semibold"
-                          className="resume-section-div-p-r-h3"
-                        >
+                      <p key={i} className="resume-section-div-p-r">
+                        <strong className="resume-section-div-p-r-h3">
                           {con.name}
                         </strong>
                         <a href={con.href} className="resume-section-div-p-r-a">
@@ -264,30 +136,12 @@ export default function Resume() {
                 </section>
 
                 {/* LANGUAGES */}
-                <section
-                  //className="pb-4"
-                  className="resume-section"
-                >
-                  <h2
-                    // className="pb-1 text-sm font-bold lg:text-base"
-                    className="resume-section-h2"
-                  >
-                    {resume.lang.title}
-                  </h2>
-                  <div
-                    // className="flex flex-col text-xs lg:text-sm"
-                    className="resume-section-div"
-                  >
+                <section className="resume-section">
+                  <h2 className="resume-section-h2">{resume.lang.title}</h2>
+                  <div className="resume-section-div">
                     {resume.lang.array.map((lang, i) => (
-                      <p
-                        key={i}
-                        // className="flex items-baseline justify-between"
-                        className="resume-section-div-p-r"
-                      >
-                        <strong
-                          //  className="font-semibold"
-                          className="resume-section-div-p-r-h3"
-                        >
+                      <p key={i} className="resume-section-div-p-r">
+                        <strong className="resume-section-div-p-r-h3">
                           {lang.name}
                         </strong>
                         <span>{lang.level}</span>
@@ -297,30 +151,12 @@ export default function Resume() {
                 </section>
 
                 {/* TECH STACK */}
-                <section
-                  //className="pb-4"
-                  className="resume-section"
-                >
-                  <h2
-                    // className="pb-1 text-sm font-bold lg:text-base"
-                    className="resume-section-h2"
-                  >
-                    {resume.tech.title}
-                  </h2>
-                  <div
-                    // className="flex flex-col text-xs lg:text-sm"
-                    className="resume-section-div"
-                  >
+                <section className="resume-section">
+                  <h2 className="resume-section-h2">{resume.tech.title}</h2>
+                  <div className="resume-section-div">
                     {resume.tech.array.map((tech, i) => (
-                      <div
-                        key={i}
-                        // className="flex items-center justify-between"
-                        className="resume-section-div-p-r-flex"
-                      >
-                        <strong
-                          //  className="font-semibold"
-                          className="resume-section-div-p-r-h3"
-                        >
+                      <div key={i} className="resume-section-div-p-r-flex">
+                        <strong className="resume-section-div-p-r-h3">
                           {tech.name}
                         </strong>
                         <Rating value={tech.rating} />
@@ -330,30 +166,12 @@ export default function Resume() {
                 </section>
 
                 {/* TOOLS */}
-                <section
-                  //className="pb-4"
-                  className="resume-section"
-                >
-                  <h2
-                    // className="pb-1 text-sm font-bold lg:text-base"
-                    className="resume-section-h2"
-                  >
-                    {resume.tool.title}
-                  </h2>
-                  <div
-                    // className="flex flex-col text-xs lg:text-sm"
-                    className="resume-section-div"
-                  >
+                <section className="resume-section">
+                  <h2 className="resume-section-h2">{resume.tool.title}</h2>
+                  <div className="resume-section-div">
                     {resume.tool.array.map((tool, i) => (
-                      <div
-                        key={i}
-                        //className="flex items-center justify-between"
-                        className="resume-section-div-p-r-flex"
-                      >
-                        <strong
-                          //  className="font-semibold"
-                          className="resume-section-div-p-r-h3"
-                        >
+                      <div key={i} className="resume-section-div-p-r-flex">
+                        <strong className="resume-section-div-p-r-h3">
                           {tool.name}
                         </strong>
                         <Rating value={tool.rating} />
@@ -363,30 +181,12 @@ export default function Resume() {
                 </section>
 
                 {/* CERTIFICATES */}
-                <section
-                  //className="pb-4"
-                  className="resume-section"
-                >
-                  <h2
-                    // className="pb-1 text-sm font-bold lg:text-base"
-                    className="resume-section-h2"
-                  >
-                    {resume.cert.title}
-                  </h2>
-                  <div
-                    // className="flex flex-col text-xs lg:text-sm"
-                    className="resume-section-div"
-                  >
+                <section className="resume-section">
+                  <h2 className="resume-section-h2">{resume.cert.title}</h2>
+                  <div className="resume-section-div">
                     {resume.cert.array.map((cert, i) => (
-                      <p
-                        key={i}
-                        // className="flex items-baseline justify-between"
-                        className="resume-section-div-p-r"
-                      >
-                        <strong
-                          //  className="font-semibold"
-                          className="resume-section-div-p-r-h3"
-                        >
+                      <p key={i} className="resume-section-div-p-r">
+                        <strong className="resume-section-div-p-r-h3">
                           {cert.name}
                         </strong>
                         <span>{cert.info}</span>
@@ -396,20 +196,9 @@ export default function Resume() {
                 </section>
 
                 {/* HOBBIES */}
-                <section
-                  //className="pb-4"
-                  className="resume-section"
-                >
-                  <h2
-                    // className="pb-1 text-sm font-bold lg:text-base"
-                    className="resume-section-h2"
-                  >
-                    {resume.hob.title}
-                  </h2>
-                  <div
-                    // className="flex flex-col text-xs lg:text-sm"
-                    className="resume-section-div"
-                  >
+                <section className="resume-section">
+                  <h2 className="resume-section-h2">{resume.hob.title}</h2>
+                  <div className="resume-section-div">
                     <p>
                       {resume.hob.array.map((hob, i) => (
                         <span key={i}>
@@ -425,7 +214,7 @@ export default function Resume() {
               </div>
             </aside>
           </div>
-        </div>
+        </article>
       </div>
 
       <button
