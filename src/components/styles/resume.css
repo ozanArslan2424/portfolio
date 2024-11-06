@@ -3,6 +3,14 @@
   src: "/src/lib/Avenir Next.ttc";
 }
 
+:root {
+  --header-bg: hsl(240 4.8% 95.9%);
+}
+
+.dark {
+  --header-bg: hsl(240 3.7% 15.9%);
+}
+
 html {
   @media print {
     font-size: 13px;
@@ -34,8 +42,7 @@ html {
   width: 100%;
   height: 8rem;
   padding: 1.5rem;
-  background-color: hsl(240 4.8% 95.9%);
-
+  background-color: var(--header-bg);
   @media print {
     height: 10.5rem;
   }
@@ -162,14 +169,9 @@ html {
   transition-duration: 150ms;
   border-radius: 0.5rem;
 
-  .dark {
-    :hover {
-      background-color: hsl(240 4.8% 95.9% / 0.9);
-    }
-    background-color: hsl(240 4.8% 95.9%);
+  background-color: hsl(240 4.8% 95.9% / 0.9);
 
-    color: hsl(240 5.9% 10%);
-  }
+  color: hsl(240 5.9% 10%);
 
   :hover {
     background-color: hsl(240 5.9% 10% / 0.9);
