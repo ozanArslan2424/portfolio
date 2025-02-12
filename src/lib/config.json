@@ -1,244 +1,186 @@
 {
-  "about": {
-    "title": {
-      "en": "Psychologist, Web Developer",
-      "tr": "Psikolog, Web Geliştirici"
-    },
-    "description": {
-      "en": "Hello, my name is Ozan Arslan. I graduated from METU Psychology. I've been interested in web development since 2023. I taught myself HTML, CSS and JavaScript and realized that I really enjoyed it. I started using React at the suggestion of my engineer friends. I'm currently developing full-stack web applications using Next.js. My next step is to develop universal mobile applications with Expo.",
-      "tr": "Merhaba, adım Ozan Arslan. ODTÜ Psikoloji mezunuyum. 2023'ten beri web geliştirmeyle ilgileniyorum. Kendi kendime HTML, CSS ve JavaScript öğrendim ve bu işten çok keyif aldığımı fark ettim. Mühendis arkadaşlarımın önerisiyle de React kullanmaya başladım. Şu anda Next.js kullanarak full-stack web uygulamaları geliştiriyorum. Sırada Expo ile mobil uygulamalar geliştirmek var."
-    },
-    "links": {
-      "github": "https://github.com/ozanArslan2424",
-      "linkedin": "https://www.linkedin.com/in/ozan-arslan-214513209/",
-      "contact": "mailto:ozanarslanwork@gmail.com"
-    },
-    "tech": [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "TypeScript",
-      "React",
-      "Next.js",
-      "Tailwind CSS",
-      "Git",
-      "Markdown",
-      "Figma",
-      "Illustrator",
-      "Photoshop",
-      "Inkscape"
-    ]
-  },
-  "projects": [
-    {
-      "title": { "en": "Tabula Notes", "tr": "Tabula Notlar" },
-      "description": {
-        "en": "Tabula Notes is a markdown-inspired note-taking app built for personal use. Working with notes is an indispensable habit for me and no markdown editor I've ever used met my needs. That's why I created Tabula, with the ability to scroll sideways and downwards just like notebook pages, it is ideal for my note-taking style. This app was created to meet my needs only. I may make it open to other users in the future. The app is down at the moment.",
-        "tr": "Tabula Notlar, kişisel kullanım için oluşturulmuş markdown esintili bir not alma uygulamasıdır. Not tutarak çalışmak benim için vazgeçilmez bir alışkanlık ve kullandığım hiçbir markdown düzenleyici tam ihtiyaçlarımı karşılamıyordu. Bu sebeple Tabula'yı oluşturdum. Aynı defter sayfaları gibi yana ve aşağı doğru ilerleme özelliğiyle ihtiyaçlarım için ideal. Bu uygulama yalnızca benim ihtiyaçlarımı karşılamak için oluşturuldu. İlerleyen zamanlarda belki başka kullanıcılara açık hale getirebilirim. Site şu anda canlı değil."
+  "en": {
+    "about": {
+      "title": "Psychologist, Web Developer",
+      "description": "Hello, my name is Ozan Arslan. I graduated from METU Psychology. I've been interested in web development since 2023. I taught myself HTML, CSS and JavaScript and realized that I really enjoyed it. I started using React at the suggestion of my engineer friends. I'm currently developing full-stack web applications using Next.js. My next step is to develop universal mobile applications with Expo.",
+      "links": {
+        "github": "https://github.com/ozanArslan2424",
+        "linkedin": "https://www.linkedin.com/in/ozan-arslan-214513209/",
+        "contact": "mailto:ozanarslanwork@gmail.com"
       },
-      "tech": ["Next.js", "TypeScript", "Tailwind CSS", "Vercel", "Postgresql"],
-      "live": "https://tabulanotes.vercel.app",
-      "repo": "https://github.com/ozanArslan2424/tabula-v2",
-      "images": [
-        { "name": "icon", "src": "/icons/tabulaicon.svg" },
-        { "name": "Landing page", "src": "/webp/tabula4.webp" },
-        { "name": "Landing page", "src": "/webp/tabula5.webp" },
-        { "name": "Library page", "src": "/webp/tabula0.webp" },
-        { "name": "Book page - dark", "src": "/webp/tabula1.webp" },
-        { "name": "Book page - dark", "src": "/webp/tabula2.webp" },
-        { "name": "Book page - light", "src": "/webp/tabula3.webp" }
+      "tech": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Next.js",
+        "Node.js",
+        "Bun",
+        "Hono",
+        "Express",
+        "Tailwind CSS",
+        "Git",
+        "Markdown",
+        "Figma",
+        "Illustrator",
+        "Photoshop",
+        "Inkscape"
       ]
     },
-    {
-      "title": {
-        "en": "TPÖÇG Blog Machine v2",
-        "tr": "TPÖÇG Blog Makinesi v2"
+    "projects": [
+      {
+        "title": "Tabula Notes",
+        "description": "Tabula Notes is a markdown-inspired note-taking app built for personal use. Working with notes is an indispensable habit for me and no markdown editor I've ever used met my needs. That's why I created Tabula, with the ability to scroll sideways and downwards just like notebook pages, it is ideal for my note-taking style. This app was created to meet my needs only. I may make it open to other users in the future. The app is down at the moment.",
+        "tech": [
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Vercel",
+          "Postgresql"
+        ],
+        "live": "https://tabulanotes.vercel.app",
+        "repo": "https://github.com/ozanArslan2424/tabula-v2",
+        "images": [
+          { "name": "icon", "src": "/icons/tabulaicon.svg" },
+          { "name": "Landing page", "src": "/webp/tabula4.webp" },
+          { "name": "Landing page", "src": "/webp/tabula5.webp" },
+          { "name": "Library page", "src": "/webp/tabula0.webp" },
+          { "name": "Book page - dark", "src": "/webp/tabula1.webp" },
+          { "name": "Book page - dark", "src": "/webp/tabula2.webp" },
+          { "name": "Book page - light", "src": "/webp/tabula3.webp" }
+        ]
       },
-      "description": {
-        "en": "This is the second version of Blog Machine, created with Vite + React. When I was leading the Publication Design Team of the Turkish Psychology Students Working Group ( TPÖÇG) for a year, the most frequent and urgent task we had to do was to prepare the templates of blog posts for Instagram posts. For a simple task like this, we were expected to use Photoshop every time. I thought it was a huge waste of time and created the first version of this app to solve this situation. Not only is the design more elegant, but it's also faster and more reliable because it's built with React. It also became more useful with the new 'reset', 'dark mode' and other blog post templates I added.",
-        "tr": "Blog Makinesi'nin Vite + React ile oluşturulmuş ikinci versiyonu. Türk Psikoloji Öğrencileri Çalışma Grubu (TPÖÇG) Yayın Tasarım Ekibi'nde 1 sene boyunca liderlik yaparken en sık ve hızlı halletmemiz gereken iş Instagram gönderileri için blog yazılarının şablonunu hazırlamaktı. Bunun gibi basit bir iş için bizden her seferinde Photoshop kullanmamız bekleniyordu. Büyük bir zaman kaybı olduğunu düşündüm ve bu durumu çözmek için bu uygulamanın ilk versiyonunu yaptım. Tasarımı daha güzel olmasının yanında React ile yapıldığı için daha hızlı ve güvenilir bir uygulama. Ayrıca yeni eklediğim \"sıfırla\", \"karanlık mod\" ve diğer blog paylaşımı şablonları ile daha kullanışlı bir hal aldı."
+      {
+        "title": "TPÖÇG Blog Machine v2",
+        "description": "This is the second version of Blog Machine, created with Vite + React. When I was leading the Publication Design Team of the Turkish Psychology Students Working Group ( TPÖÇG) for a year, the most frequent and urgent task we had to do was to prepare the templates of blog posts for Instagram posts. For a simple task like this, we were expected to use Photoshop every time. I thought it was a huge waste of time and created the first version of this app to solve this situation. Not only is the design more elegant, but it's also faster and more reliable because it's built with React. It also became more useful with the new 'reset', 'dark mode' and other blog post templates I added.",
+        "tech": ["Vite", "React", "JavaScript", "NextUI", "GitHub Pages"],
+        "repo": "https://github.com/ozanArslan2424/blogmachine-v2",
+        "live": "https://ozanarslan2424.github.io/blogmachine-v2/",
+        "images": [
+          { "name": "icon", "src": "/icons/blogicon.svg" },
+          {
+            "name": "Home page - dark",
+            "src": "/webp/blogv2dark1.webp"
+          },
+          {
+            "name": "Home page - light",
+            "src": "/webp/blogv2light.webp"
+          },
+          { "name": "Other templates 1", "src": "/webp/blogv2dark2.webp" },
+          { "name": "Other templates 2", "src": "/webp/blogv2dark3.webp" }
+        ]
       },
-      "tech": ["Vite", "React", "JavaScript", "NextUI", "GitHub Pages"],
-      "repo": "https://github.com/ozanArslan2424/blogmachine-v2",
-      "live": "https://ozanarslan2424.github.io/blogmachine-v2/",
-      "images": [
-        { "name": "icon", "src": "/icons/blogicon.svg" },
-        {
-          "name": "Home page - dark",
-          "src": "/webp/blogv2dark1.webp"
-        },
-        {
-          "name": "Home page - light",
-          "src": "/webp/blogv2light.webp"
-        },
-        { "name": "Other templates 1", "src": "/webp/blogv2dark2.webp" },
-        { "name": "Other templates 2", "src": "/webp/blogv2dark3.webp" }
-      ]
-    },
-    {
-      "title": {
-        "en": "Lecture Tool - Freedom",
-        "tr": "Eğitim Aleti - Özgürlük"
+      {
+        "title": "Lecture Tool - Freedom",
+        "description": "Lecture Tool is a web application that I created to help me present a lecture on freedom more dynamically. It has a simple and clean design that focuses on the person figure at the center of the screen. The person figure is animated and can be moved around the screen with the arrow keys. The lecture mainly consists of the unseen relationship between boundaries and behavioral freedom.",
+        "tech": ["Next.js", "TypeScript", "Tailwind CSS"],
+        "repo": "https://github.com/ozanArslan2424/freedom-lecture",
+        "live": "",
+        "images": []
       },
-
-      "description": {
-        "en": "Lecture Tool is a web application that I created to help me present a lecture on freedom more dynamically. It has a simple and clean design that focuses on the person figure at the center of the screen. The person figure is animated and can be moved around the screen with the arrow keys. The lecture mainly consists of the unseen relationship between boundaries and behavioral freedom.",
-        "tr": "Eğitim Aleti, özgürlük üzerine bir dersi daha dinamik bir şekilde sunmama yardımcı olması için oluşturduğum bir web uygulamasıdır. Ekranın ortasındaki insan figürüne odaklanan basit ve temiz bir tasarıma sahiptir. İnsan figürü animasyonludur ve ok tuşları ile ekranda hareket ettirilebilir. Ders esas olarak sınırlar ve davranışsal özgürlük arasındaki görünmeyen ilişkiyi içermektedir."
+      {
+        "title": "TPÖÇG Card Website",
+        "description": "TPÖÇG Card is a joint work of TPÖÇG Sponsorship Team and Financial Affairs Coordinatorship. It aims to provide TPÖÇG members with discounts at contracted businesses. Although the card has never been made physical as far as I know, I was assigned by my team mate in charge to promote the card and create a digital version of it, and that's why I created this website. In addition to using pure HTML, CSS and JavaScript, I used html2canvas CDN to enable cardholders to download their personalized card image.",
+        "tech": ["HTML", "CSS", "JavaScript", "GitHub Pages"],
+        "repo": "https://github.com/ozanArslan2424/tpocgkart",
+        "live": "https://ozanarslan2424.github.io/tpocgkart/",
+        "images": [
+          { "name": "icon", "src": "/icons/cardicon.svg" },
+          { "name": "Intro animation", "src": "/webp/card1.webp" },
+          { "name": "Home page 1", "src": "/webp/card2.webp" },
+          { "name": "Home page 2", "src": "/webp/card3.webp" }
+        ]
       },
-      "tech": ["Next.js", "TypeScript", "Tailwind CSS"],
-      "repo": "https://github.com/ozanArslan2424/freedom-lecture",
-      "live": "",
-      "images": []
-    },
-    {
-      "title": {
-        "en": "TPÖÇG Card Website",
-        "tr": "TPÖÇG Kart Sitesi"
+      {
+        "title": "TPÖÇG Blog Machine v1",
+        "description": "My first project is this web application made using only HTML, CSS and JavaScript. When I was leading the Publication Design Team of the Turkish Psychology Students Working Group ( TPÖÇG) for a year, the most frequent and urgent task we had to do was to prepare the templates of blog posts for Instagram posts. For a simple task like this, we were expected to use Photoshop every time. I thought it was a huge waste of time and created this app to solve this situation. This project soon became inadequate and I started making the 2nd version.",
+        "tech": ["HTML", "CSS", "JavaScript", "GitHub Pages"],
+        "repo": "https://github.com/ozanArslan2424/Blog-Machine/tree/main-edits",
+        "live": "https://ozanarslan2424.github.io/Blog-Machine/",
+        "images": [{ "name": "icon", "src": "/icons/blogicon.svg" }]
       },
-      "description": {
-        "en": "TPÖÇG Card is a joint work of TPÖÇG Sponsorship Team and Financial Affairs Coordinatorship. It aims to provide TPÖÇG members with discounts at contracted businesses. Although the card has never been made physical as far as I know, I was assigned by my team mate in charge to promote the card and create a digital version of it, and that's why I created this website. In addition to using pure HTML, CSS and JavaScript, I used html2canvas CDN to enable cardholders to download their personalized card image.",
-        "tr": "TPÖÇG Kart, TPÖÇG Sponsorluk Ekibi ve Mali İşler Koordinatörlüğü'nün ortak bir çalışmasıdır. TPÖÇG üyelerine anlaşmalı işletmelerde indirim sağlaması amacını taşır. Kart, bildiğim kadarıyla hiçbir zaman fiziksel hale getirilmese de kartı tanıtmak ve dijital versiyonunu oluşturmak amacıyla, sorumlu ekip arkadaşım tarafından görevlendirilmiştim ve bu siteyi de bu sebeple oluşturdum. Saf HTML, CSS ve JavaScript kullanmanın yanında html2canvas CDN'ini kullanarak kart sahiplerinin kendilerine özel kart görselini kaydedebilmesini amaçladım."
+      {
+        "title": "Portfolio",
+        "description": "The website we are currently on. This project is a portfolio site that I created to introduce myself and showcase my work. I took a very minimalist approach to the design and let the content take center stage.",
+        "tech": ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
+        "repo": "https://github.com/ozanArslan2424/portfolio",
+        "live": "https://ozanarslan.vercel.app",
+        "images": []
+      }
+    ],
+    "resume": {
+      "name": "Ozan Arslan",
+      "title": "Psychologist, Web Developer",
+      "con": {
+        "title": "CONTACT",
+        "array": [
+          {
+            "name": "E-mail:",
+            "href": "mailto:ozanarslanodtu@gmail.com",
+            "label": "ozanarslanodtu@gmail.com"
+          },
+          {
+            "name": "LinkedIn:",
+            "href": "https://www.linkedin.com/in/ozan-arslan-214513209/",
+            "label": "ozan-arslan-214513209"
+          },
+          {
+            "name": "GitHub:",
+            "href": "https://github.com/ozanArslan2424",
+            "label": "ozanArslan2424"
+          },
+          {
+            "name": "LinkedIn:",
+            "href": "https://ozanarslan.vercel.app/en",
+            "label": "ozanarslan.vercel.app"
+          }
+        ]
       },
-      "tech": ["HTML", "CSS", "JavaScript", "GitHub Pages"],
-      "repo": "https://github.com/ozanArslan2424/tpocgkart",
-      "live": "https://ozanarslan2424.github.io/tpocgkart/",
-      "images": [
-        { "name": "icon", "src": "/icons/cardicon.svg" },
-        { "name": "Intro animation", "src": "/webp/card1.webp" },
-        { "name": "Home page 1", "src": "/webp/card2.webp" },
-        { "name": "Home page 2", "src": "/webp/card3.webp" }
-      ]
-    },
-    {
-      "title": {
-        "en": "TPÖÇG Blog Machine v1",
-        "tr": "TPÖÇG Blog Makinesi v1"
-      },
-      "description": {
-        "en": "My first project is this web application made using only HTML, CSS and JavaScript. When I was leading the Publication Design Team of the Turkish Psychology Students Working Group ( TPÖÇG) for a year, the most frequent and urgent task we had to do was to prepare the templates of blog posts for Instagram posts. For a simple task like this, we were expected to use Photoshop every time. I thought it was a huge waste of time and created this app to solve this situation. This project soon became inadequate and I started making the 2nd version.",
-        "tr": "Sadece HTML, CSS ve JavaScript kullanarak yapılmış bu web uygulaması benim ilk projem. Türk Psikoloji Öğrencileri Çalışma Grubu (TPÖÇG) Yayın Tasarım Ekibi'nde 1 sene boyunca liderlik yaparken en sık ve hızlı halletmemiz gereken iş Instagram gönderileri için blog yazılarının şablonunu hazırlamaktı. Bunun gibi basit bir iş için bizden her seferinde Photoshop kullanmamız bekleniyordu. Büyük bir zaman kaybı olduğunu düşündüm ve bu durumu çözmek için bu uygulamayı yaptım. Bu proje uzun sürmeden yetersiz kaldı ve 2. versiyonunu yapmaya başladım."
-      },
-      "tech": ["HTML", "CSS", "JavaScript", "GitHub Pages"],
-      "repo": "https://github.com/ozanArslan2424/Blog-Machine/tree/main-edits",
-      "live": "https://ozanarslan2424.github.io/Blog-Machine/",
-      "images": [{ "name": "icon", "src": "/icons/blogicon.svg" }]
-    },
-    {
-      "title": {
-        "en": "Portfolio",
-        "tr": "Portfolyo"
-      },
-      "description": {
-        "en": "The website we are currently on. This project is a portfolio site that I created to introduce myself and showcase my work. I took a very minimalist approach to the design and let the content take center stage.",
-        "tr": "Şu anda bulunduğumuz site. Bu proje, benim kendimi tanıtmak ve yaptığım işleri sergilemek amacıyla oluşturduğum bir portfolyo sitesi. Tasarım konusunda oldukça minimalist bir yaklaşım sergiledim ve içeriklerin ön planda olmasını sağladım."
-      },
-      "tech": ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
-      "repo": "https://github.com/ozanArslan2424/portfolio",
-      "live": "https://ozanarslan.vercel.app",
-      "images": []
-    }
-  ],
-  "resume": {
-    "name": "Ozan Arslan",
-    "title": {
-      "en": "Psychologist, Web Developer",
-      "tr": "Psikolog, Web Geliştirici"
-    },
-    "con": {
-      "title": {
-        "en": "CONTACT",
-        "tr": "İLETİŞİM"
-      },
-      "array": [
-        {
-          "name": "E-mail:",
-          "href": "mailto:ozanarslanodtu@gmail.com",
-          "label": "ozanarslanodtu@gmail.com"
-        },
-        {
-          "name": "LinkedIn:",
-          "href": "https://www.linkedin.com/in/ozan-arslan-214513209/",
-          "label": "ozan-arslan-214513209"
-        },
-        {
-          "name": "GitHub:",
-          "href": "https://github.com/ozanArslan2424",
-          "label": "ozanArslan2424"
-        },
-        {
-          "name": "LinkedIn:",
-          "href": "https://ozanarslan.vercel.app/en",
-          "label": "ozanarslan.vercel.app"
-        }
-      ]
-    },
-    "lang": {
-      "title": {
-        "en": "LANGUAGES",
-        "tr": "DİLLER"
-      },
-      "array": {
-        "en": [
+      "lang": {
+        "title": "LANGUAGES",
+        "array": [
           { "name": "Turkish", "level": "Native" },
           { "name": "English", "level": "C2 Professional" },
           { "name": "German", "level": "Beginner" }
-        ],
-        "tr": [
-          { "name": "Türkçe", "level": "Ana Dil" },
-          { "name": "İngilizce", "level": "C2 Profesyonel" },
-          { "name": "Almanca", "level": "Başlangıç" }
         ]
-      }
-    },
-    "tech": {
-      "title": {
-        "en": "TECH STACK",
-        "tr": "YAZILIM BİLGİSİ"
       },
-      "array": [
-        { "name": "Next.js", "rating": 5 },
-        { "name": "React", "rating": 5 },
-        { "name": "Typescript", "rating": 4 },
-        { "name": "Javascript", "rating": 5 },
-        { "name": "HTML", "rating": 5 },
-        { "name": "CSS", "rating": 5 },
-        { "name": "Wordpress", "rating": 4 }
-      ]
-    },
-    "tool": {
-      "title": {
-        "en": "TOOLS",
-        "tr": "PROGRAMLAR"
+      "tech": {
+        "title": "TECH STACK",
+        "array": [
+          { "name": "Next.js", "rating": 5 },
+          { "name": "React", "rating": 5 },
+          { "name": "Typescript", "rating": 4 },
+          { "name": "Javascript", "rating": 5 },
+          { "name": "HTML", "rating": 5 },
+          { "name": "CSS", "rating": 5 },
+          { "name": "Wordpress", "rating": 4 }
+        ]
       },
-      "array": [
-        { "name": "MS office", "rating": 5 },
-        { "name": "Google Drive", "rating": 5 },
-        { "name": "Photoshop", "rating": 3 },
-        { "name": "Illustrator", "rating": 4 },
-        { "name": "InDesign", "rating": 4 },
-        { "name": "Figma", "rating": 4 },
-        { "name": "Canva", "rating": 5 }
-      ]
-    },
-    "cert": {
-      "title": {
-        "en": "CERTIFICATES",
-        "tr": "SERTİFİKALAR"
+      "tool": {
+        "title": "TOOLS",
+        "array": [
+          { "name": "MS office", "rating": 5 },
+          { "name": "Google Drive", "rating": 5 },
+          { "name": "Photoshop", "rating": 3 },
+          { "name": "Illustrator", "rating": 4 },
+          { "name": "InDesign", "rating": 4 },
+          { "name": "Figma", "rating": 4 },
+          { "name": "Canva", "rating": 5 }
+        ]
       },
-      "array": [
-        { "name": "ODTÜ EPE 2023", "info": "93 / 100" },
-        { "name": "ALES 2022", "info": "90 / 100" },
-        { "name": "KPSS Lisans 2024", "info": "82 / 100" },
-        { "name": "Res. Web Design", "info": "freeCodeCamp" }
-      ]
-    },
-    "hob": {
-      "title": {
-        "en": "HOBBIES",
-        "tr": "HOBİLER"
+      "cert": {
+        "title": "CERTIFICATES",
+        "array": [
+          { "name": "ODTÜ EPE 2023", "info": "93 / 100" },
+          { "name": "ALES 2022", "info": "90 / 100" },
+          { "name": "KPSS Lisans 2024", "info": "82 / 100" },
+          { "name": "Res. Web Design", "info": "freeCodeCamp" }
+        ]
       },
-      "array": {
-        "en": [
+      "hob": {
+        "title": "HOBBIES",
+        "array": [
           "photography",
           "cycling",
           "swimming",
@@ -246,25 +188,11 @@
           "hiking",
           "cooking",
           "coding"
-        ],
-        "tr": [
-          "fotoğrafçılık",
-          "bisiklet",
-          "yüzme",
-          "edebiyat",
-          "doğa yürüyüşleri",
-          "yemek yapma",
-          "kodlama"
         ]
-      }
-    },
-    "edu": {
-      "title": {
-        "en": "EDUCATION",
-        "tr": "EĞİTİM"
       },
-      "array": {
-        "en": [
+      "edu": {
+        "title": "EDUCATION",
+        "array": [
           {
             "name": "Middle East Technical University",
             "info": "Psychology, CGPA: 3.43",
@@ -280,33 +208,11 @@
             "info": "Avg: 93.07",
             "date": "2014 - 2019"
           }
-        ],
-        "tr": [
-          {
-            "name": "Orta Doğu Teknik Üniversitesi",
-            "info": "Psikoloji, CGPA: 3.43",
-            "date": "2019 - 2023"
-          },
-          {
-            "name": "Uniwersytet Kazimierza Wielkiego",
-            "info": "Erasmus, Ort: 4.7 / 5",
-            "date": "2022"
-          },
-          {
-            "name": "Kabataş Erkek Lisesi",
-            "info": "Mezuniyet: 93.07",
-            "date": "2014 - 2019"
-          }
         ]
-      }
-    },
-    "exp": {
-      "title": {
-        "en": "EXPERIENCE",
-        "tr": "DENEYİM"
       },
-      "array": {
-        "en": [
+      "exp": {
+        "title": "EXPERIENCE",
+        "array": [
           {
             "name": "mfatech.co, Front-End Developer",
             "info": "I work as a front-end developer at mfatech startup where I actively take part in developing apps, overseeing volunteer projects and managing the team.",
@@ -337,8 +243,247 @@
             "info": "I was an office worker, helping students and alumni register for the school's services using the online system and verifying their membership cards.",
             "date": "2022"
           }
+        ]
+      },
+      "soc": {
+        "title": "SOCIETIES",
+        "array": [
+          {
+            "name": "METU Student Representatives Board",
+            "date": "2021 - 2023",
+            "role": "Psychology Students Representative"
+          },
+          {
+            "name": "Turkish Psy. Students Work Group (TPÖÇG)",
+            "date": "2022 - 2024",
+            "role": "Publications Design, Store Design, and Translation Teams Leader"
+          }
         ],
-        "tr": [
+        "other": [
+          "METU Language Society",
+          "METU Mountaineering and Winter Sports Club",
+          "METU Literature Society",
+          "Üniversiteyi Bana Sor",
+          "Guguk Magazine (High school magazine)",
+          "Galatasaray Swim Club"
+        ]
+      }
+    }
+  },
+  "tr": {
+    "about": {
+      "title": "Psikolog, Web Geliştirici",
+      "description": "Merhaba, adım Ozan Arslan. ODTÜ Psikoloji mezunuyum. 2023'ten beri web geliştirmeyle ilgileniyorum. Kendi kendime HTML, CSS ve JavaScript öğrendim ve bu işten çok keyif aldığımı fark ettim. Mühendis arkadaşlarımın önerisiyle de React kullanmaya başladım. Şu anda Next.js kullanarak full-stack web uygulamaları geliştiriyorum. Sırada Expo ile mobil uygulamalar geliştirmek var.",
+      "links": {
+        "github": "https://github.com/ozanArslan2424",
+        "linkedin": "https://www.linkedin.com/in/ozan-arslan-214513209/",
+        "contact": "mailto:ozanarslanwork@gmail.com"
+      },
+      "tech": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Next.js",
+        "Node.js",
+        "Bun",
+        "Hono",
+        "Express",
+        "Tailwind CSS",
+        "Git",
+        "Markdown",
+        "Figma",
+        "Illustrator",
+        "Photoshop",
+        "Inkscape"
+      ]
+    },
+    "projects": [
+      {
+        "title": "Tabula Notlar",
+        "description": "Tabula Notlar, kişisel kullanım için oluşturulmuş markdown esintili bir not alma uygulamasıdır. Not tutarak çalışmak benim için vazgeçilmez bir alışkanlık ve kullandığım hiçbir markdown düzenleyici tam ihtiyaçlarımı karşılamıyordu. Bu sebeple Tabula'yı oluşturdum. Aynı defter sayfaları gibi yana ve aşağı doğru ilerleme özelliğiyle ihtiyaçlarım için ideal. Bu uygulama yalnızca benim ihtiyaçlarımı karşılamak için oluşturuldu. İlerleyen zamanlarda belki başka kullanıcılara açık hale getirebilirim. Site şu anda canlı değil.",
+        "tech": [
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Vercel",
+          "Postgresql"
+        ],
+        "live": "https://tabulanotes.vercel.app",
+        "repo": "https://github.com/ozanArslan2424/tabula-v2",
+        "images": [
+          { "name": "icon", "src": "/icons/tabulaicon.svg" },
+          { "name": "Landing page", "src": "/webp/tabula4.webp" },
+          { "name": "Landing page", "src": "/webp/tabula5.webp" },
+          { "name": "Library page", "src": "/webp/tabula0.webp" },
+          { "name": "Book page - dark", "src": "/webp/tabula1.webp" },
+          { "name": "Book page - dark", "src": "/webp/tabula2.webp" },
+          { "name": "Book page - light", "src": "/webp/tabula3.webp" }
+        ]
+      },
+      {
+        "title": "TPÖÇG Blog Makinesi v2",
+        "description": "Blog Makinesi'nin Vite + React ile oluşturulmuş ikinci versiyonu. Türk Psikoloji Öğrencileri Çalışma Grubu (TPÖÇG) Yayın Tasarım Ekibi'nde 1 sene boyunca liderlik yaparken en sık ve hızlı halletmemiz gereken iş Instagram gönderileri için blog yazılarının şablonunu hazırlamaktı. Bunun gibi basit bir iş için bizden her seferinde Photoshop kullanmamız bekleniyordu. Büyük bir zaman kaybı olduğunu düşündüm ve bu durumu çözmek için bu uygulamanın ilk versiyonunu yaptım. Tasarımı daha güzel olmasının yanında React ile yapıldığı için daha hızlı ve güvenilir bir uygulama. Ayrıca yeni eklediğim \"sıfırla\", \"karanlık mod\" ve diğer blog paylaşımı şablonları ile daha kullanışlı bir hal aldı.",
+        "tech": ["Vite", "React", "JavaScript", "NextUI", "GitHub Pages"],
+        "repo": "https://github.com/ozanArslan2424/blogmachine-v2",
+        "live": "https://ozanarslan2424.github.io/blogmachine-v2/",
+        "images": [
+          { "name": "icon", "src": "/icons/blogicon.svg" },
+          {
+            "name": "Home page - dark",
+            "src": "/webp/blogv2dark1.webp"
+          },
+          {
+            "name": "Home page - light",
+            "src": "/webp/blogv2light.webp"
+          },
+          { "name": "Other templates 1", "src": "/webp/blogv2dark2.webp" },
+          { "name": "Other templates 2", "src": "/webp/blogv2dark3.webp" }
+        ]
+      },
+      {
+        "title": "Eğitim Aleti - Özgürlük",
+        "description": "Eğitim Aleti, özgürlük üzerine bir dersi daha dinamik bir şekilde sunmama yardımcı olması için oluşturduğum bir web uygulamasıdır. Ekranın ortasındaki insan figürüne odaklanan basit ve temiz bir tasarıma sahiptir. İnsan figürü animasyonludur ve ok tuşları ile ekranda hareket ettirilebilir. Ders esas olarak sınırlar ve davranışsal özgürlük arasındaki görünmeyen ilişkiyi içermektedir.",
+        "tech": ["Next.js", "TypeScript", "Tailwind CSS"],
+        "repo": "https://github.com/ozanArslan2424/freedom-lecture",
+        "live": "",
+        "images": []
+      },
+      {
+        "title": "TPÖÇG Kart Sitesi",
+        "description": "TPÖÇG Kart, TPÖÇG Sponsorluk Ekibi ve Mali İşler Koordinatörlüğü'nün ortak bir çalışmasıdır. TPÖÇG üyelerine anlaşmalı işletmelerde indirim sağlaması amacını taşır. Kart, bildiğim kadarıyla hiçbir zaman fiziksel hale getirilmese de kartı tanıtmak ve dijital versiyonunu oluşturmak amacıyla, sorumlu ekip arkadaşım tarafından görevlendirilmiştim ve bu siteyi de bu sebeple oluşturdum. Saf HTML, CSS ve JavaScript kullanmanın yanında html2canvas CDN'ini kullanarak kart sahiplerinin kendilerine özel kart görselini kaydedebilmesini amaçladım.",
+        "tech": ["HTML", "CSS", "JavaScript", "GitHub Pages"],
+        "repo": "https://github.com/ozanArslan2424/tpocgkart",
+        "live": "https://ozanarslan2424.github.io/tpocgkart/",
+        "images": [
+          { "name": "icon", "src": "/icons/cardicon.svg" },
+          { "name": "Intro animation", "src": "/webp/card1.webp" },
+          { "name": "Home page 1", "src": "/webp/card2.webp" },
+          { "name": "Home page 2", "src": "/webp/card3.webp" }
+        ]
+      },
+      {
+        "title": "TPÖÇG Blog Makinesi v1",
+        "description": "Sadece HTML, CSS ve JavaScript kullanarak yapılmış bu web uygulaması benim ilk projem. Türk Psikoloji Öğrencileri Çalışma Grubu (TPÖÇG) Yayın Tasarım Ekibi'nde 1 sene boyunca liderlik yaparken en sık ve hızlı halletmemiz gereken iş Instagram gönderileri için blog yazılarının şablonunu hazırlamaktı. Bunun gibi basit bir iş için bizden her seferinde Photoshop kullanmamız bekleniyordu. Büyük bir zaman kaybı olduğunu düşündüm ve bu durumu çözmek için bu uygulamayı yaptım. Bu proje uzun sürmeden yetersiz kaldı ve 2. versiyonunu yapmaya başladım.",
+        "tech": ["HTML", "CSS", "JavaScript", "GitHub Pages"],
+        "repo": "https://github.com/ozanArslan2424/Blog-Machine/tree/main-edits",
+        "live": "https://ozanarslan2424.github.io/Blog-Machine/",
+        "images": [{ "name": "icon", "src": "/icons/blogicon.svg" }]
+      },
+      {
+        "title": "Portfolyo",
+        "description": "Şu anda bulunduğumuz site. Bu proje, benim kendimi tanıtmak ve yaptığım işleri sergilemek amacıyla oluşturduğum bir portfolyo sitesi. Tasarım konusunda oldukça minimalist bir yaklaşım sergiledim ve içeriklerin ön planda olmasını sağladım.",
+        "tech": ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
+        "repo": "https://github.com/ozanArslan2424/portfolio",
+        "live": "https://ozanarslan.vercel.app",
+        "images": []
+      }
+    ],
+    "resume": {
+      "name": "Ozan Arslan",
+      "title": "Psikolog, Web Geliştirici",
+      "con": {
+        "title": "İLETİŞİM",
+        "array": [
+          {
+            "name": "E-mail:",
+            "href": "mailto:ozanarslanodtu@gmail.com",
+            "label": "ozanarslanodtu@gmail.com"
+          },
+          {
+            "name": "LinkedIn:",
+            "href": "https://www.linkedin.com/in/ozan-arslan-214513209/",
+            "label": "ozan-arslan-214513209"
+          },
+          {
+            "name": "GitHub:",
+            "href": "https://github.com/ozanArslan2424",
+            "label": "ozanArslan2424"
+          },
+          {
+            "name": "LinkedIn:",
+            "href": "https://ozanarslan.vercel.app/en",
+            "label": "ozanarslan.vercel.app"
+          }
+        ]
+      },
+      "lang": {
+        "title": "DİLLER",
+        "array": [
+          { "name": "Türkçe", "level": "Ana Dil" },
+          { "name": "İngilizce", "level": "C2 Profesyonel" },
+          { "name": "Almanca", "level": "Başlangıç" }
+        ]
+      },
+      "tech": {
+        "title": "YAZILIM BİLGİSİ",
+        "array": [
+          { "name": "Next.js", "rating": 5 },
+          { "name": "React", "rating": 5 },
+          { "name": "Typescript", "rating": 4 },
+          { "name": "Javascript", "rating": 5 },
+          { "name": "HTML", "rating": 5 },
+          { "name": "CSS", "rating": 5 },
+          { "name": "Wordpress", "rating": 4 }
+        ]
+      },
+      "tool": {
+        "title": "PROGRAMLAR",
+        "array": [
+          { "name": "MS office", "rating": 5 },
+          { "name": "Google Drive", "rating": 5 },
+          { "name": "Photoshop", "rating": 3 },
+          { "name": "Illustrator", "rating": 4 },
+          { "name": "InDesign", "rating": 4 },
+          { "name": "Figma", "rating": 4 },
+          { "name": "Canva", "rating": 5 }
+        ]
+      },
+      "cert": {
+        "title": "SERTİFİKALAR",
+        "array": [
+          { "name": "ODTÜ EPE 2023", "info": "93 / 100" },
+          { "name": "ALES 2022", "info": "90 / 100" },
+          { "name": "KPSS Lisans 2024", "info": "82 / 100" },
+          { "name": "Res. Web Design", "info": "freeCodeCamp" }
+        ]
+      },
+      "hob": {
+        "title": "HOBİLER",
+        "array": [
+          "fotoğrafçılık",
+          "bisiklet",
+          "yüzme",
+          "edebiyat",
+          "doğa yürüyüşleri",
+          "yemek yapma",
+          "kodlama"
+        ]
+      },
+      "edu": {
+        "title": "EĞİTİM",
+        "array": [
+          {
+            "name": "Orta Doğu Teknik Üniversitesi",
+            "info": "Psikoloji, CGPA: 3.43",
+            "date": "2019 - 2023"
+          },
+          {
+            "name": "Uniwersytet Kazimierza Wielkiego",
+            "info": "Erasmus, Ort: 4.7 / 5",
+            "date": "2022"
+          },
+          {
+            "name": "Kabataş Erkek Lisesi",
+            "info": "Mezuniyet: 93.07",
+            "date": "2014 - 2019"
+          }
+        ]
+      },
+      "exp": {
+        "title": "DENEYİM",
+        "array": [
           {
             "name": "mfatech.co, Front-end Developer",
             "info": "mfatech startup'ında front-end developer olarak aktif olarak uygulama geliştirmekteyim. Bunun yanında gönüllü projeleri takip ediyorum ve takımı yönetiyorum.",
@@ -370,43 +515,10 @@
             "date": "2022"
           }
         ]
-      }
-    },
-    "soc": {
-      "title": {
-        "en": "SOCIETIES",
-        "tr": "TOPLULUKLAR"
       },
-      "array": {
-        "en": [
-          {
-            "name": "METU Student Representatives Board",
-            "date": "2021 - 2023",
-            "role": "Psychology Students Representative"
-          },
-          {
-            "name": "Turkish Psy. Students Work Group (TPÖÇG)",
-            "date": "2022 - 2024",
-            "role": "Publications Design, Store Design, and Translation Teams Leader"
-          },
-          { "name": "METU Language Society", "date": "2022 - 2023" },
-          {
-            "name": "METU Mountaineering and Winter Sports Club",
-            "date": "2021 - 2022"
-          },
-          { "name": "METU Literature Society", "date": "2019 - 2023" },
-          {
-            "name": "Üniversiteyi Bana Sor",
-            "date": "2019 - 2022",
-            "role": "METU Psychology Representative"
-          },
-          { "name": "Guguk Magazine (High school magazine)", "date": "2018" },
-          {
-            "name": "Galatasaray Swim Club",
-            "date": "2010 - 2013"
-          }
-        ],
-        "tr": [
+      "soc": {
+        "title": "TOPLULUKLAR",
+        "array": [
           {
             "name": "ODTÜ Öğrenci Temsilciliği Kurulu",
             "date": "2021 - 2023",
@@ -416,32 +528,16 @@
             "name": "Türk Psikoloji Öğr. Çalışma Grubu (TPÖÇG)",
             "date": "2022 - 2024",
             "role": "Yayın Tasarım, Store Tasarım ve Çeviri Ekipleri Lideri"
-          },
-          {
-            "name": "ODTÜ Dil Topluluğu",
-            "date": "2022 - 2023"
-          },
-          {
-            "name": "ODTÜ Dağcılık ve Kış Sporları Kulübü",
-            "date": "2021 - 2022"
-          },
-          {
-            "name": "ODTÜ Edebiyat Topluluğu",
-            "date": "2019 - 2023"
-          },
-          {
-            "name": "Üniversiteyi Bana Sor",
-            "date": "2019 - 2022",
-            "role": "ODTÜ Psikoloji Temsilcisi"
-          },
-          {
-            "name": "Guguk Dergi (Lise dergisi)",
-            "date": "2018"
-          },
-          {
-            "name": "Galatasaray Yüzme Kulübü",
-            "date": "2010 - 2013"
           }
+        ],
+
+        "other": [
+          "ODTÜ Dil Topluluğu",
+          "ODTÜ Dağcılık ve Kış Sporları Kulübü",
+          "ODTÜ Edebiyat Topluluğu",
+          "Üniversiteyi Bana Sor",
+          "Guguk Dergi (Lise dergisi)",
+          "Galatasaray Yüzme Kulübü"
         ]
       }
     }

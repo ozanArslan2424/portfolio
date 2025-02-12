@@ -100,6 +100,12 @@ export default function Resume() {
                       </div>
                     ))}
                   </div>
+                  <div className="resume-section-div">
+                    <p className="resume-section-div-p-r-h3">
+                      {lang === "en" ? "Other" : "Diğer"}
+                    </p>
+                    <p>{resume.soc.other.join(", ")}</p>
+                  </div>
                 </section>
               </div>
             </main>

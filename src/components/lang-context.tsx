@@ -23,71 +23,7 @@ export const useLang = (): LangContextType => {
 export const LangProvider = ({ children }: { children: ReactNode }) => {
   const [lang, setLang] = useState<Lang>("en");
 
-  const about = useMemo(
-    () => ({
-      title: config.about.title[lang],
-      description: config.about.description[lang],
-      tech: config.about.tech,
-      links: config.about.links,
-    }),
-    [lang],
-  );
-
-  const projects = useMemo(
-    () =>
-      config.projects.map((p) => ({
-        title: p.title[lang],
-        description: p.description[lang],
-        tech: p.tech,
-        live: p.live,
-        repo: p.repo,
-        images: p.images,
-      })),
-    [lang],
-  );
-
-  const resume = useMemo(
-    () => ({
-      title: config.resume.title[lang],
-      edu: {
-        title: config.resume.edu.title[lang],
-        array: config.resume.edu.array[lang],
-      },
-      exp: {
-        title: config.resume.exp.title[lang],
-        array: config.resume.exp.array[lang],
-      },
-      soc: {
-        title: config.resume.soc.title[lang],
-        array: config.resume.soc.array[lang],
-      },
-      con: {
-        title: config.resume.con.title[lang],
-        array: config.resume.con.array,
-      },
-      lang: {
-        title: config.resume.lang.title[lang],
-        array: config.resume.lang.array[lang],
-      },
-      tech: {
-        title: config.resume.tech.title[lang],
-        array: config.resume.tech.array,
-      },
-      tool: {
-        title: config.resume.tool.title[lang],
-        array: config.resume.tool.array,
-      },
-      cert: {
-        title: config.resume.cert.title[lang],
-        array: config.resume.cert.array,
-      },
-      hob: {
-        title: config.resume.hob.title[lang],
-        array: config.resume.hob.array[lang],
-      },
-    }),
-    [lang],
-  );
+  const configMemo = useMemo(() => config[lang], [lang]);
 
   useEffect(() => {
     const locale = navigator.language;
@@ -110,7 +46,15 @@ export const LangProvider = ({ children }: { children: ReactNode }) => {
   }, [lang]);
 
   return (
-    <LangContext.Provider value={{ lang, setLang, about, projects, resume }}>
+    <LangContext.Provider
+      value={{
+        lang,
+        setLang,
+        about: configMemo.about,
+        projects: configMemo.projects,
+        resume: configMemo.resume,
+      }}
+    >
       {children}
     </LangContext.Provider>
   );
