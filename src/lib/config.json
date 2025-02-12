@@ -30,6 +30,28 @@
     },
     "projects": [
       {
+        "title": "Refination",
+        "description": "Refination is a refinement tool for Scrum projects. With this tool, teams can come together to plan their tasks and determine story points. We use this project at mfatech where I work, and I designed it primarily with my team there in mind.",
+        "tech": [
+          "React",
+          "Bun",
+          "Firebase",
+          "Tailwind CSS",
+          "Websockets",
+          "Vite"
+        ],
+        "repo": "https://github.com/ozanArslan2424/refination",
+        "live": "https://refination.vercel.app/",
+        "images": [
+          { "name": "icon", "src": "/webp/ref0.webp" },
+          { "name": "Landing page", "src": "/webp/ref1.webp" },
+          { "name": "Set username page", "src": "/webp/ref2.webp" },
+          { "name": "Idle voting page", "src": "/webp/ref3.webp" },
+          { "name": "Active voting page", "src": "/webp/ref4.webp" },
+          { "name": "Results", "src": "/webp/ref5.webp" }
+        ]
+      },
+      {
         "title": "Tabula Notes",
         "description": "Tabula Notes is a markdown-inspired note-taking app built for personal use. Working with notes is an indispensable habit for me and no markdown editor I've ever used met my needs. That's why I created Tabula, with the ability to scroll sideways and downwards just like notebook pages, it is ideal for my note-taking style. This app was created to meet my needs only. I may make it open to other users in the future. The app is down at the moment.",
         "tech": [
@@ -300,6 +322,28 @@
       ]
     },
     "projects": [
+      {
+        "title": "Refination",
+        "description": "Refination, Scrum projeler için bir refinement tool'udur. Bu tool ile takımlar bir araya gelip yapılacak görevlerini planlayabilir, story point'lerini belirleyebilirler. Bu projeyi içerisinde bulunduğum mfatech'te kullanıyoruz ve temel olarak oradaki ekibimi düşünerek tasarladım.",
+        "tech": [
+          "React",
+          "Bun",
+          "Firebase",
+          "Tailwind CSS",
+          "Websockets",
+          "Vite"
+        ],
+        "repo": "https://github.com/ozanArslan2424/refination",
+        "live": "https://refination.vercel.app/",
+        "images": [
+          { "name": "icon", "src": "/webp/ref0.webp" },
+          { "name": "Landing page", "src": "/webp/ref1.webp" },
+          { "name": "Set username page", "src": "/webp/ref2.webp" },
+          { "name": "Idle voting page", "src": "/webp/ref3.webp" },
+          { "name": "Active voting page", "src": "/webp/ref4.webp" },
+          { "name": "Results", "src": "/webp/ref5.webp" }
+        ]
+      },
       {
         "title": "Tabula Notlar",
         "description": "Tabula Notlar, kişisel kullanım için oluşturulmuş markdown esintili bir not alma uygulamasıdır. Not tutarak çalışmak benim için vazgeçilmez bir alışkanlık ve kullandığım hiçbir markdown düzenleyici tam ihtiyaçlarımı karşılamıyordu. Bu sebeple Tabula'yı oluşturdum. Aynı defter sayfaları gibi yana ve aşağı doğru ilerleme özelliğiyle ihtiyaçlarım için ideal. Bu uygulama yalnızca benim ihtiyaçlarımı karşılamak için oluşturuldu. İlerleyen zamanlarda belki başka kullanıcılara açık hale getirebilirim. Site şu anda canlı değil.",
