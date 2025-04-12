@@ -1,8 +1,8 @@
 {
   "en": {
     "about": {
-      "title": "Psychologist, Web Developer",
-      "description": "Hello, my name is Ozan Arslan. I graduated from METU Psychology. I've been interested in web development since 2023. I taught myself HTML, CSS and JavaScript and realized that I really enjoyed it. I started using React at the suggestion of my engineer friends. I'm currently developing full-stack web applications using Next.js. My next step is to develop universal mobile applications with Expo.",
+      "title": "Psychologist, Full-Stack Web Developer",
+      "description": "Hello, my name is Ozan Arslan. I graduated from METU Psychology. I've been interested in web development since 2023. I taught myself HTML, CSS and JavaScript and realized that I really enjoyed it. I started using React at the suggestion of my engineer friends. I'm currently enjoying Vite + React, Next.js, and SvelteKit on the frontend and Node.js, Bun, Hono, and Elysia on the backend. I am experienced with project structure, design patterns, and best practices.",
       "links": {
         "github": "https://github.com/ozanArslan2424",
         "linkedin": "https://www.linkedin.com/in/ozan-arslan-214513209/",
@@ -18,6 +18,7 @@
         "Node.js",
         "Bun",
         "Hono",
+        "Elysia.js",
         "Express",
         "Tailwind CSS",
         "Git",
@@ -43,12 +44,30 @@
         "repo": "https://github.com/ozanArslan2424/refination",
         "live": "https://refination.vercel.app/",
         "images": [
-          { "name": "icon", "src": "/webp/ref0.webp" },
-          { "name": "Landing page", "src": "/webp/ref1.webp" },
-          { "name": "Set username page", "src": "/webp/ref2.webp" },
-          { "name": "Idle voting page", "src": "/webp/ref3.webp" },
-          { "name": "Active voting page", "src": "/webp/ref4.webp" },
-          { "name": "Results", "src": "/webp/ref5.webp" }
+          {
+            "name": "icon",
+            "src": "/webp/ref0.webp"
+          },
+          {
+            "name": "Landing page",
+            "src": "/webp/ref1.webp"
+          },
+          {
+            "name": "Set username page",
+            "src": "/webp/ref2.webp"
+          },
+          {
+            "name": "Idle voting page",
+            "src": "/webp/ref3.webp"
+          },
+          {
+            "name": "Active voting page",
+            "src": "/webp/ref4.webp"
+          },
+          {
+            "name": "Results",
+            "src": "/webp/ref5.webp"
+          }
         ]
       },
       {
@@ -64,13 +83,34 @@
         "live": "https://tabulanotes.vercel.app",
         "repo": "https://github.com/ozanArslan2424/tabula-v2",
         "images": [
-          { "name": "icon", "src": "/icons/tabulaicon.svg" },
-          { "name": "Landing page", "src": "/webp/tabula4.webp" },
-          { "name": "Landing page", "src": "/webp/tabula5.webp" },
-          { "name": "Library page", "src": "/webp/tabula0.webp" },
-          { "name": "Book page - dark", "src": "/webp/tabula1.webp" },
-          { "name": "Book page - dark", "src": "/webp/tabula2.webp" },
-          { "name": "Book page - light", "src": "/webp/tabula3.webp" }
+          {
+            "name": "icon",
+            "src": "/icons/tabulaicon.svg"
+          },
+          {
+            "name": "Landing page",
+            "src": "/webp/tabula4.webp"
+          },
+          {
+            "name": "Landing page",
+            "src": "/webp/tabula5.webp"
+          },
+          {
+            "name": "Library page",
+            "src": "/webp/tabula0.webp"
+          },
+          {
+            "name": "Book page - dark",
+            "src": "/webp/tabula1.webp"
+          },
+          {
+            "name": "Book page - dark",
+            "src": "/webp/tabula2.webp"
+          },
+          {
+            "name": "Book page - light",
+            "src": "/webp/tabula3.webp"
+          }
         ]
       },
       {
@@ -80,7 +120,10 @@
         "repo": "https://github.com/ozanArslan2424/blogmachine-v2",
         "live": "https://ozanarslan2424.github.io/blogmachine-v2/",
         "images": [
-          { "name": "icon", "src": "/icons/blogicon.svg" },
+          {
+            "name": "icon",
+            "src": "/icons/blogicon.svg"
+          },
           {
             "name": "Home page - dark",
             "src": "/webp/blogv2dark1.webp"
@@ -89,8 +132,14 @@
             "name": "Home page - light",
             "src": "/webp/blogv2light.webp"
           },
-          { "name": "Other templates 1", "src": "/webp/blogv2dark2.webp" },
-          { "name": "Other templates 2", "src": "/webp/blogv2dark3.webp" }
+          {
+            "name": "Other templates 1",
+            "src": "/webp/blogv2dark2.webp"
+          },
+          {
+            "name": "Other templates 2",
+            "src": "/webp/blogv2dark3.webp"
+          }
         ]
       },
       {
@@ -108,10 +157,22 @@
         "repo": "https://github.com/ozanArslan2424/tpocgkart",
         "live": "https://ozanarslan2424.github.io/tpocgkart/",
         "images": [
-          { "name": "icon", "src": "/icons/cardicon.svg" },
-          { "name": "Intro animation", "src": "/webp/card1.webp" },
-          { "name": "Home page 1", "src": "/webp/card2.webp" },
-          { "name": "Home page 2", "src": "/webp/card3.webp" }
+          {
+            "name": "icon",
+            "src": "/icons/cardicon.svg"
+          },
+          {
+            "name": "Intro animation",
+            "src": "/webp/card1.webp"
+          },
+          {
+            "name": "Home page 1",
+            "src": "/webp/card2.webp"
+          },
+          {
+            "name": "Home page 2",
+            "src": "/webp/card3.webp"
+          }
         ]
       },
       {
@@ -120,7 +181,12 @@
         "tech": ["HTML", "CSS", "JavaScript", "GitHub Pages"],
         "repo": "https://github.com/ozanArslan2424/Blog-Machine/tree/main-edits",
         "live": "https://ozanarslan2424.github.io/Blog-Machine/",
-        "images": [{ "name": "icon", "src": "/icons/blogicon.svg" }]
+        "images": [
+          {
+            "name": "icon",
+            "src": "/icons/blogicon.svg"
+          }
+        ]
       },
       {
         "title": "Portfolio",
@@ -162,42 +228,101 @@
       "lang": {
         "title": "LANGUAGES",
         "array": [
-          { "name": "Turkish", "level": "Native" },
-          { "name": "English", "level": "C2 Professional" },
-          { "name": "German", "level": "Beginner" }
+          {
+            "name": "Turkish",
+            "level": "Native"
+          },
+          {
+            "name": "English",
+            "level": "C2 Professional"
+          },
+          {
+            "name": "German",
+            "level": "Beginner"
+          }
         ]
       },
       "tech": {
         "title": "TECH STACK",
         "array": [
-          { "name": "Next.js", "rating": 5 },
-          { "name": "React", "rating": 5 },
-          { "name": "Typescript", "rating": 4 },
-          { "name": "Javascript", "rating": 5 },
-          { "name": "HTML", "rating": 5 },
-          { "name": "CSS", "rating": 5 },
-          { "name": "Wordpress", "rating": 4 }
+          {
+            "name": "Next.js",
+            "rating": 5
+          },
+          {
+            "name": "React",
+            "rating": 5
+          },
+          {
+            "name": "Typescript",
+            "rating": 4
+          },
+          {
+            "name": "HTML, CSS, JS",
+            "rating": 5
+          },
+          {
+            "name": "Hono",
+            "rating": 4
+          },
+          {
+            "name": "Elysia.js",
+            "rating": 4
+          }
         ]
       },
       "tool": {
         "title": "TOOLS",
         "array": [
-          { "name": "MS office", "rating": 5 },
-          { "name": "Google Drive", "rating": 5 },
-          { "name": "Photoshop", "rating": 3 },
-          { "name": "Illustrator", "rating": 4 },
-          { "name": "InDesign", "rating": 4 },
-          { "name": "Figma", "rating": 4 },
-          { "name": "Canva", "rating": 5 }
+          {
+            "name": "MS office",
+            "rating": 5
+          },
+          {
+            "name": "Google Drive",
+            "rating": 5
+          },
+          {
+            "name": "Photoshop",
+            "rating": 3
+          },
+          {
+            "name": "Illustrator",
+            "rating": 4
+          },
+          {
+            "name": "InDesign",
+            "rating": 4
+          },
+          {
+            "name": "Figma",
+            "rating": 4
+          },
+          {
+            "name": "Canva",
+            "rating": 5
+          }
         ]
       },
       "cert": {
         "title": "CERTIFICATES",
         "array": [
-          { "name": "ODTÜ EPE 2023", "info": "93 / 100" },
-          { "name": "ALES 2022", "info": "90 / 100" },
-          { "name": "KPSS Lisans 2024", "info": "82 / 100" },
-          { "name": "Res. Web Design", "info": "freeCodeCamp" }
+          {
+            "name": "ODTÜ EPE 2023",
+            "info": "93 / 100"
+          },
+          {
+            "name": "ALES 2022",
+            "info": "90 / 100"
+          },
+          {
+            "name": "KPSS Lisans 2024",
+            "info": "82 / 100"
+          },
+          {
+            "name": "Res. Web Design",
+            "info": "freeCodeCamp"
+          }
         ]
       },
       "hob": {
@@ -243,7 +368,7 @@
           {
             "name": "Invisible Technologies",
             "info": "Advanced AI Trainer",
-            "date": "2024 - present"
+            "date": "2024 - 2025"
           },
           {
             "name": "Koçum Yanımda, Psychologist",
@@ -294,8 +419,8 @@
   },
   "tr": {
     "about": {
-      "title": "Psikolog, Web Geliştirici",
-      "description": "Merhaba, adım Ozan Arslan. ODTÜ Psikoloji mezunuyum. 2023'ten beri web geliştirmeyle ilgileniyorum. Kendi kendime HTML, CSS ve JavaScript öğrendim ve bu işten çok keyif aldığımı fark ettim. Mühendis arkadaşlarımın önerisiyle de React kullanmaya başladım. Şu anda Next.js kullanarak full-stack web uygulamaları geliştiriyorum. Sırada Expo ile mobil uygulamalar geliştirmek var.",
+      "title": "Psikolog, Full-Stack Web Geliştirici",
+      "description": "Merhaba, adım Ozan Arslan. ODTÜ Psikoloji mezunuyum. 2023'ten beri web geliştirmeyle ilgileniyorum. Kendi kendime HTML, CSS ve JavaScript öğrendim ve bu işten çok keyif aldığımı fark ettim. Mühendis arkadaşlarımın önerisiyle de React kullanmaya başladım. Şu anda frontend tarafında Vite + React, Next.js ve SvelteKit kullanıyorum. Backend tarafında Node.js, Bun, Hono ve Elysia kullanıyorum. Proje yapılandırması, tasarım kalıpları ve iyi pratikler konularında deneyimliyim.",
       "links": {
         "github": "https://github.com/ozanArslan2424",
         "linkedin": "https://www.linkedin.com/in/ozan-arslan-214513209/",
@@ -311,6 +436,7 @@
         "Node.js",
         "Bun",
         "Hono",
+        "Elysia.js",
         "Express",
         "Tailwind CSS",
         "Git",
@@ -336,12 +462,30 @@
         "repo": "https://github.com/ozanArslan2424/refination",
         "live": "https://refination.vercel.app/",
         "images": [
-          { "name": "icon", "src": "/webp/ref0.webp" },
-          { "name": "Landing page", "src": "/webp/ref1.webp" },
-          { "name": "Set username page", "src": "/webp/ref2.webp" },
-          { "name": "Idle voting page", "src": "/webp/ref3.webp" },
-          { "name": "Active voting page", "src": "/webp/ref4.webp" },
-          { "name": "Results", "src": "/webp/ref5.webp" }
+          {
+            "name": "icon",
+            "src": "/webp/ref0.webp"
+          },
+          {
+            "name": "Landing page",
+            "src": "/webp/ref1.webp"
+          },
+          {
+            "name": "Set username page",
+            "src": "/webp/ref2.webp"
+          },
+          {
+            "name": "Idle voting page",
+            "src": "/webp/ref3.webp"
+          },
+          {
+            "name": "Active voting page",
+            "src": "/webp/ref4.webp"
+          },
+          {
+            "name": "Results",
+            "src": "/webp/ref5.webp"
+          }
         ]
       },
       {
@@ -357,13 +501,34 @@
         "live": "https://tabulanotes.vercel.app",
         "repo": "https://github.com/ozanArslan2424/tabula-v2",
         "images": [
-          { "name": "icon", "src": "/icons/tabulaicon.svg" },
-          { "name": "Landing page", "src": "/webp/tabula4.webp" },
-          { "name": "Landing page", "src": "/webp/tabula5.webp" },
-          { "name": "Library page", "src": "/webp/tabula0.webp" },
-          { "name": "Book page - dark", "src": "/webp/tabula1.webp" },
-          { "name": "Book page - dark", "src": "/webp/tabula2.webp" },
-          { "name": "Book page - light", "src": "/webp/tabula3.webp" }
+          {
+            "name": "icon",
+            "src": "/icons/tabulaicon.svg"
+          },
+          {
+            "name": "Landing page",
+            "src": "/webp/tabula4.webp"
+          },
+          {
+            "name": "Landing page",
+            "src": "/webp/tabula5.webp"
+          },
+          {
+            "name": "Library page",
+            "src": "/webp/tabula0.webp"
+          },
+          {
+            "name": "Book page - dark",
+            "src": "/webp/tabula1.webp"
+          },
+          {
+            "name": "Book page - dark",
+            "src": "/webp/tabula2.webp"
+          },
+          {
+            "name": "Book page - light",
+            "src": "/webp/tabula3.webp"
+          }
         ]
       },
       {
@@ -373,7 +538,10 @@
         "repo": "https://github.com/ozanArslan2424/blogmachine-v2",
         "live": "https://ozanarslan2424.github.io/blogmachine-v2/",
         "images": [
-          { "name": "icon", "src": "/icons/blogicon.svg" },
+          {
+            "name": "icon",
+            "src": "/icons/blogicon.svg"
+          },
           {
             "name": "Home page - dark",
             "src": "/webp/blogv2dark1.webp"
@@ -382,8 +550,14 @@
             "name": "Home page - light",
             "src": "/webp/blogv2light.webp"
           },
-          { "name": "Other templates 1", "src": "/webp/blogv2dark2.webp" },
-          { "name": "Other templates 2", "src": "/webp/blogv2dark3.webp" }
+          {
+            "name": "Other templates 1",
+            "src": "/webp/blogv2dark2.webp"
+          },
+          {
+            "name": "Other templates 2",
+            "src": "/webp/blogv2dark3.webp"
+          }
         ]
       },
       {
@@ -401,10 +575,22 @@
         "repo": "https://github.com/ozanArslan2424/tpocgkart",
         "live": "https://ozanarslan2424.github.io/tpocgkart/",
         "images": [
-          { "name": "icon", "src": "/icons/cardicon.svg" },
-          { "name": "Intro animation", "src": "/webp/card1.webp" },
-          { "name": "Home page 1", "src": "/webp/card2.webp" },
-          { "name": "Home page 2", "src": "/webp/card3.webp" }
+          {
+            "name": "icon",
+            "src": "/icons/cardicon.svg"
+          },
+          {
+            "name": "Intro animation",
+            "src": "/webp/card1.webp"
+          },
+          {
+            "name": "Home page 1",
+            "src": "/webp/card2.webp"
+          },
+          {
+            "name": "Home page 2",
+            "src": "/webp/card3.webp"
+          }
         ]
       },
       {
@@ -413,7 +599,12 @@
         "tech": ["HTML", "CSS", "JavaScript", "GitHub Pages"],
         "repo": "https://github.com/ozanArslan2424/Blog-Machine/tree/main-edits",
         "live": "https://ozanarslan2424.github.io/Blog-Machine/",
-        "images": [{ "name": "icon", "src": "/icons/blogicon.svg" }]
+        "images": [
+          {
+            "name": "icon",
+            "src": "/icons/blogicon.svg"
+          }
+        ]
       },
       {
         "title": "Portfolyo",
@@ -455,42 +646,101 @@
       "lang": {
         "title": "DİLLER",
         "array": [
-          { "name": "Türkçe", "level": "Ana Dil" },
-          { "name": "İngilizce", "level": "C2 Profesyonel" },
-          { "name": "Almanca", "level": "Başlangıç" }
+          {
+            "name": "Türkçe",
+            "level": "Ana Dil"
+          },
+          {
+            "name": "İngilizce",
+            "level": "C2 Profesyonel"
+          },
+          {
+            "name": "Almanca",
+            "level": "Başlangıç"
+          }
         ]
       },
       "tech": {
         "title": "YAZILIM BİLGİSİ",
         "array": [
-          { "name": "Next.js", "rating": 5 },
-          { "name": "React", "rating": 5 },
-          { "name": "Typescript", "rating": 4 },
-          { "name": "Javascript", "rating": 5 },
-          { "name": "HTML", "rating": 5 },
-          { "name": "CSS", "rating": 5 },
-          { "name": "Wordpress", "rating": 4 }
+          {
+            "name": "Next.js",
+            "rating": 5
+          },
+          {
+            "name": "React",
+            "rating": 5
+          },
+          {
+            "name": "Typescript",
+            "rating": 4
+          },
+          {
+            "name": "HTML, CSS, JS",
+            "rating": 5
+          },
+          {
+            "name": "Hono",
+            "rating": 4
+          },
+          {
+            "name": "Elysia.js",
+            "rating": 4
+          }
         ]
       },
       "tool": {
         "title": "PROGRAMLAR",
         "array": [
-          { "name": "MS office", "rating": 5 },
-          { "name": "Google Drive", "rating": 5 },
-          { "name": "Photoshop", "rating": 3 },
-          { "name": "Illustrator", "rating": 4 },
-          { "name": "InDesign", "rating": 4 },
-          { "name": "Figma", "rating": 4 },
-          { "name": "Canva", "rating": 5 }
+          {
+            "name": "MS office",
+            "rating": 5
+          },
+          {
+            "name": "Google Drive",
+            "rating": 5
+          },
+          {
+            "name": "Photoshop",
+            "rating": 3
+          },
+          {
+            "name": "Illustrator",
+            "rating": 4
+          },
+          {
+            "name": "InDesign",
+            "rating": 4
+          },
+          {
+            "name": "Figma",
+            "rating": 4
+          },
+          {
+            "name": "Canva",
+            "rating": 5
+          }
         ]
       },
       "cert": {
         "title": "SERTİFİKALAR",
         "array": [
-          { "name": "ODTÜ EPE 2023", "info": "93 / 100" },
-          { "name": "ALES 2022", "info": "90 / 100" },
-          { "name": "KPSS Lisans 2024", "info": "82 / 100" },
-          { "name": "Res. Web Design", "info": "freeCodeCamp" }
+          {
+            "name": "ODTÜ EPE 2023",
+            "info": "93 / 100"
+          },
+          {
+            "name": "ALES 2022",
+            "info": "90 / 100"
+          },
+          {
+            "name": "KPSS Lisans 2024",
+            "info": "82 / 100"
+          },
+          {
+            "name": "Res. Web Design",
+            "info": "freeCodeCamp"
+          }
         ]
       },
       "hob": {
@@ -536,7 +786,7 @@
           {
             "name": "Invisible Technologies",
             "info": "Gelişmiş AI Eğitmeni",
-            "date": "2024 - Devam"
+            "date": "2024 - 2025"
           },
           {
             "name": "Koçum Yanımda, Psikolog",
@@ -574,7 +824,6 @@
             "role": "Yayın Tasarım, Store Tasarım ve Çeviri Ekipleri Lideri"
           }
         ],
-
         "other": [
           "ODTÜ Dil Topluluğu",
           "ODTÜ Dağcılık ve Kış Sporları Kulübü",
