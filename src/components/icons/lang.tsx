@@ -1,4 +1,4 @@
-export function EnIcon() {
+export function LangEnIcon() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -27,7 +27,7 @@ export function EnIcon() {
   );
 }
 
-export function TrIcon() {
+export function LangTrIcon() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

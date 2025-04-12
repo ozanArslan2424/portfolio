@@ -1,4 +1,4 @@
-export default function Loader() {
+export function LoaderIcon() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

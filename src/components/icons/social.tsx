@@ -12,7 +12,7 @@ export function GithubIcon() {
         fill="currentColor"
         fillRule="evenodd"
         clipRule="evenodd"
-      ></path>
+      />
     </svg>
   );
 }
@@ -31,7 +31,7 @@ export function LinkedinIcon() {
         fill="currentColor"
         fillRule="evenodd"
         clipRule="evenodd"
-      ></path>
+      />
     </svg>
   );
 }
@@ -50,7 +50,7 @@ export function MailIcon() {
         fill="currentColor"
         fillRule="evenodd"
         clipRule="evenodd"
-      ></path>
+      />
     </svg>
   );
 }

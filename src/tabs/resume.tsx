@@ -1,54 +1,52 @@
 import { motion } from "framer-motion";
 import { useRef } from "react";
 import { useReactToPrint } from "react-to-print";
-import { useLang } from "./lang-context";
-import "./styles/resume.css";
+import { useConfig } from "../hooks/use-config";
+import "../styles/resume.css";
 
-export default function Resume() {
-  const { resume, lang } = useLang();
+export function ResumeTab() {
+  const { content, lang } = useConfig();
 
   const resumeRef = useRef<HTMLDivElement>(null);
+
   const downloadResume = useReactToPrint({
     contentRef: resumeRef,
     documentTitle: `Ozan Arslan - ${lang === "en" ? "Resume" : "Özgeçmiş"}`,
     onPrintError(errorLocation, error) {
-      console.error(errorLocation, error);
-      alert(
-        "An error occurred while downloading the resume. Check the console for more information.",
-      );
+      const errorAlert =
+        lang === "en"
+          ? `An error occurred while downloading the resume. Error Location: ${errorLocation}, Error Message: ${error.message}`
+          : `Özgeçmiş indirilirken bir hata oluştu. Hata Konumu: ${errorLocation}, Hata Mesajı: ${error.message}`;
+      alert(errorAlert);
     },
   });
 
   return (
     <motion.div
       className="card min-h-fit"
-      initial={{
-        opacity: 0,
-        y: 15,
-      }}
-      whileInView={{
-        opacity: 1,
-        y: 0,
-      }}
+      initial={{ opacity: 0, y: 15 }}
+      whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ type: "spring", duration: 1, delay: 0.25 }}
     >
       <div className="print-target" ref={resumeRef}>
         <article className="avenir-next" id="#resume">
-          <div className="resume-header-bg"></div>
+          <div className="resume-header-bg" />
           <div className="resume-grid">
             <main className="resume-main">
               {/* HEADER */}
               <address>
                 <h1 className="resume-header-h1">Ozan Arslan</h1>
-                <p className="resume-header-p">{resume.title}</p>
+                <p className="resume-header-p">{content.resume.title}</p>
               </address>
               <div>
                 {/* EDUCATIONS */}
                 <section className="resume-section">
-                  <h2 className="resume-section-h2">{resume.edu.title}</h2>
+                  <h2 className="resume-section-h2">
+                    {content.resume.edu.title}
+                  </h2>
                   <div className="resume-section-div">
-                    {resume.edu.array.map((edu, i) => (
+                    {content.resume.edu.array.map((edu, i) => (
                       <div key={i} className="resume-section-div-p">
                         <div className="resume-section-div-p-r">
                           <h3 className="resume-section-div-p-r-h3">
@@ -64,9 +62,11 @@ export default function Resume() {
 
                 {/* EXPERIENCES */}
                 <section className="resume-section">
-                  <h2 className="resume-section-h2">{resume.exp.title}</h2>
+                  <h2 className="resume-section-h2">
+                    {content.resume.exp.title}
+                  </h2>
                   <div className="resume-section-div">
-                    {resume.exp.array.map((exp, i) => (
+                    {content.resume.exp.array.map((exp, i) => (
                       <div key={i} className="resume-section-div-p">
                         <div className="resume-section-div-p-r">
                           <h3 className="resume-section-div-p-r-h3">
@@ -84,9 +84,11 @@ export default function Resume() {
 
                 {/* SOCIETIES */}
                 <section className="resume-section">
-                  <h2 className="resume-section-h2">{resume.soc.title}</h2>
+                  <h2 className="resume-section-h2">
+                    {content.resume.soc.title}
+                  </h2>
                   <div className="resume-section-div">
-                    {resume.soc.array.map((soc, i) => (
+                    {content.resume.soc.array.map((soc, i) => (
                       <div key={i} className="resume-section-div-p">
                         <div className="resume-section-div-p-r">
                           <h3 className="resume-section-div-p-r-h3">
@@ -104,7 +106,7 @@ export default function Resume() {
                     <p className="resume-section-div-p-r-h3">
                       {lang === "en" ? "Other" : "Diğer"}
                     </p>
-                    <p>{resume.soc.other.join(", ")}</p>
+                    <p>{content.resume.soc.other.join(", ")}</p>
                   </div>
                 </section>
               </div>
@@ -123,12 +125,14 @@ export default function Resume() {
               <div>
                 {/* CONTACT */}
                 <section className="resume-section">
-                  <h2 className="resume-section-h2">{resume.con.title}</h2>
+                  <h2 className="resume-section-h2">
+                    {content.resume.con.title}
+                  </h2>
                   <div className="resume-section-div">
                     <p className="resume-section-div-p-r-h3">
                       Ankara / Türkiye
                     </p>
-                    {resume.con.array.map((con, i) => (
+                    {content.resume.con.array.map((con, i) => (
                       <p key={i} className="resume-section-div-p-r">
                         <strong className="resume-section-div-p-r-h3">
                           {con.name}
@@ -143,9 +147,11 @@ export default function Resume() {
 
                 {/* LANGUAGES */}
                 <section className="resume-section">
-                  <h2 className="resume-section-h2">{resume.lang.title}</h2>
+                  <h2 className="resume-section-h2">
+                    {content.resume.lang.title}
+                  </h2>
                   <div className="resume-section-div">
-                    {resume.lang.array.map((lang, i) => (
+                    {content.resume.lang.array.map((lang, i) => (
                       <p key={i} className="resume-section-div-p-r">
                         <strong className="resume-section-div-p-r-h3">
                           {lang.name}
@@ -158,9 +164,11 @@ export default function Resume() {
 
                 {/* TECH STACK */}
                 <section className="resume-section">
-                  <h2 className="resume-section-h2">{resume.tech.title}</h2>
+                  <h2 className="resume-section-h2">
+                    {content.resume.tech.title}
+                  </h2>
                   <div className="resume-section-div">
-                    {resume.tech.array.map((tech, i) => (
+                    {content.resume.tech.array.map((tech, i) => (
                       <div key={i} className="resume-section-div-p-r-flex">
                         <strong className="resume-section-div-p-r-h3">
                           {tech.name}
@@ -173,9 +181,11 @@ export default function Resume() {
 
                 {/* TOOLS */}
                 <section className="resume-section">
-                  <h2 className="resume-section-h2">{resume.tool.title}</h2>
+                  <h2 className="resume-section-h2">
+                    {content.resume.tool.title}
+                  </h2>
                   <div className="resume-section-div">
-                    {resume.tool.array.map((tool, i) => (
+                    {content.resume.tool.array.map((tool, i) => (
                       <div key={i} className="resume-section-div-p-r-flex">
                         <strong className="resume-section-div-p-r-h3">
                           {tool.name}
@@ -188,9 +198,11 @@ export default function Resume() {
 
                 {/* CERTIFICATES */}
                 <section className="resume-section">
-                  <h2 className="resume-section-h2">{resume.cert.title}</h2>
+                  <h2 className="resume-section-h2">
+                    {content.resume.cert.title}
+                  </h2>
                   <div className="resume-section-div">
-                    {resume.cert.array.map((cert, i) => (
+                    {content.resume.cert.array.map((cert, i) => (
                       <p key={i} className="resume-section-div-p-r">
                         <strong className="resume-section-div-p-r-h3">
                           {cert.name}
@@ -203,15 +215,19 @@ export default function Resume() {
 
                 {/* HOBBIES */}
                 <section className="resume-section">
-                  <h2 className="resume-section-h2">{resume.hob.title}</h2>
+                  <h2 className="resume-section-h2">
+                    {content.resume.hob.title}
+                  </h2>
                   <div className="resume-section-div">
                     <p>
-                      {resume.hob.array.map((hob, i) => (
+                      {content.resume.hob.array.map((hob, i) => (
                         <span key={i}>
                           {i === 0
                             ? hob.charAt(0).toUpperCase() + hob.slice(1)
                             : hob}
-                          {i === resume.hob.array.length - 1 ? "." : ", "}
+                          {i === content.resume.hob.array.length - 1
+                            ? "."
+                            : ", "}
                         </span>
                       ))}
                     </p>
@@ -267,7 +283,7 @@ function Rating({ value }: { value: number }) {
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
           className="rounded-full border border-[#374151]"
-        ></svg>
+        />
       ))}
     </div>
   );

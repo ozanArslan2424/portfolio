@@ -1,4 +1,4 @@
-export default function LinkIcon() {
+export function LinkIcon() {
   return (
     <svg
       width="15"
@@ -12,7 +12,7 @@ export default function LinkIcon() {
         fill="currentColor"
         fillRule="evenodd"
         clipRule="evenodd"
-      ></path>
+      />
     </svg>
   );
 }

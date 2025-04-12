@@ -1,4 +1,4 @@
-export default function CrossIcon() {
+export function CrossIcon() {
   return (
     <svg
       width="15"
@@ -13,7 +13,7 @@ export default function CrossIcon() {
         fillRule="evenodd"
         clipRule="evenodd"
         className="h-4 w-4"
-      ></path>
+      />
     </svg>
   );
 }

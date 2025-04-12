@@ -1,0 +1,141 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@plugin "@tailwindcss/typography";
+
+@layer base {
+  :root {
+    --background: hsl(0, 0%, 100%);
+    --foreground: hsl(240, 10%, 3.9%);
+    --card: hsl(0, 0%, 100%);
+    --card-foreground: hsl(240, 10%, 3.9%);
+    --popover: hsl(0, 0%, 100%);
+    --popover-foreground: hsl(240, 10%, 3.9%);
+    --primary: hsl(240, 5.9%, 10%);
+    --primary-foreground: hsl(0, 0%, 98%);
+    --secondary: hsl(240, 4.8%, 95.9%);
+    --secondary-foreground: hsl(240, 5.9%, 10%);
+    --muted: hsl(240, 4.8%, 95.9%);
+    --muted-foreground: hsl(240, 3.8%, 46.1%);
+    --accent: hsl(240, 4.8%, 95.9%);
+    --accent-foreground: hsl(240, 5.9%, 10%);
+    --destructive: hsl(0, 84.2%, 60.2%);
+    --destructive-foreground: hsl(0, 0%, 98%);
+    --border: hsl(240, 5.9%, 90%);
+    --input: hsl(240, 5.9%, 90%);
+    --ring: hsl(240, 5.9%, 10%);
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: hsl(240, 10%, 3.9%);
+    --foreground: hsl(0, 0%, 98%);
+    --card: hsl(240, 10%, 3.9%);
+    --card-foreground: hsl(0, 0%, 98%);
+    --popover: hsl(240, 10%, 3.9%);
+    --popover-foreground: hsl(0, 0%, 98%);
+    --primary: hsl(0, 0%, 98%);
+    --primary-foreground: hsl(240, 5.9%, 10%);
+    --secondary: hsl(240, 3.7%, 15.9%);
+    --secondary-foreground: hsl(0, 0%, 98%);
+    --muted: hsl(240, 3.7%, 15.9%);
+    --muted-foreground: hsl(240, 5%, 64.9%);
+    --accent: hsl(240, 3.7%, 15.9%);
+    --accent-foreground: hsl(0, 0%, 98%);
+    --destructive: hsl(0, 62.8%, 30.6%);
+    --destructive-foreground: hsl(0, 0%, 98%);
+    --border: hsl(240, 3.7%, 15.9%);
+    --input: hsl(240, 3.7%, 15.9%);
+    --ring: hsl(240, 4.9%, 83.9%);
+  }
+}
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 4px);
+
+  --text-res-xl: "clamp(1.75rem, 3vw, 2.25rem)";
+  --text-res-lg: "clamp(1.25rem, 2vw, 1.75rem)";
+  --text-res-base: "clamp(1rem, 1.75vw, 1.25rem)";
+  --text-res-sm: "clamp(0.875rem, 1.25vw, 1rem)";
+  --text-res-xs: "clamp(0.75rem, 1vw, 0.875rem)";
+}
+
+@layer base {
+  * {
+    @apply border-border text-base;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  label > span {
+    @apply text-sm md:text-base;
+  }
+  input,
+  textarea {
+    @apply hover:bg-input/10 focus:outline-ring my-2 w-full resize-none rounded-md border bg-transparent px-3 py-2 text-sm shadow-sm;
+  }
+  input:disabled,
+  textarea:disabled {
+    @apply bg-muted/70 text-muted-foreground pointer-events-none cursor-not-allowed;
+  }
+  .dark {
+    & .prose {
+      color: white !important;
+    }
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-card/70 text-card-foreground w-full rounded-xl border p-4 shadow-sm backdrop-blur-sm md:p-5;
+  }
+
+  .circle-button {
+    @apply hover:border-primary/50 flex size-8 shrink-0 cursor-pointer items-center justify-center rounded-full border transition;
+  }
+
+  .button {
+    @apply bg-primary text-primary-foreground hover:bg-primary/90 dark:bg-accent dark:text-accent-foreground dark:hover:bg-accent/90 flex cursor-pointer items-center justify-center gap-1 rounded-lg px-3 py-1.5 text-xs font-semibold shadow-sm transition-colors md:gap-2;
+  }
+
+  .button:disabled {
+    @apply disabled:bg-muted/70 disabled:text-muted-foreground pointer-events-none cursor-not-allowed;
+  }
+  .button[type="reset"] {
+    @apply text-foreground hover:bg-destructive hover:text-destructive-foreground bg-transparent;
+  }
+  .link {
+    @apply bg-accent text-primary flex cursor-pointer items-center gap-2 rounded-md px-3 py-1.5 text-xs font-semibold transition-colors hover:underline;
+  }
+  .link.secondary,
+  .button.secondary {
+    @apply bg-neutral-100 text-neutral-900 hover:bg-neutral-200/70 dark:bg-neutral-700/80 dark:text-neutral-100 dark:hover:bg-neutral-700/60;
+  }
+}
+
+@layer utilities {
+  .grainy {
+    background: url(https://grainy-gradients.vercel.app/noise.svg);
+  }
+}
