@@ -19,7 +19,7 @@ export function App() {
   return (
     <div
       lang={lang}
-      className="container mx-auto grid grid-flow-row grid-rows-1 gap-4 px-4 py-8 lg:grid-flow-col lg:grid-cols-[0.4fr_1fr] lg:gap-6"
+      className="container mx-auto grid grid-flow-row grid-rows-1 gap-4 px-4 py-8 lg:grid-flow-col lg:grid-cols-[35%_65%] lg:gap-6"
     >
       <About />
       <div>
