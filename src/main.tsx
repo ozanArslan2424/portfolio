@@ -4,7 +4,7 @@ import { App } from "./app";
 import "./styles/index.css";
 import { ThemeProvider } from "next-themes";
 import { ConfigProvider } from "./components/config-provider";
-import { Blobs } from "./components/blobs";
+import { BackgroundBlobs } from "./components/bg-blobs";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -16,7 +16,7 @@ createRoot(document.getElementById("root")!).render(
     >
       <ConfigProvider>
         <div className="min-h-screen w-full">
-          <Blobs />
+          <BackgroundBlobs />
           <App />
         </div>
       </ConfigProvider>

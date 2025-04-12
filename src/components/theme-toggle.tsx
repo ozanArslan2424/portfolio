@@ -24,11 +24,9 @@ export function ThemeToggle() {
       <span className="sr-only">
         {resolvedTheme === "light" ? "Dark mode" : "Light mode"}
       </span>
-      {resolvedTheme === "light" ? (
-        <Icon variant="theme-light" />
-      ) : (
-        <Icon variant="theme-dark" />
-      )}
+      <Icon
+        variant={resolvedTheme === "light" ? "theme-light" : "theme-dark"}
+      />
     </button>
   );
 }

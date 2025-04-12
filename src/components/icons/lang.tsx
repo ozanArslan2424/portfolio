@@ -6,6 +6,7 @@ export function LangEnIcon() {
       height="20"
       viewBox="0 0 512 512"
     >
+      <title>English</title>
       <mask id="a">
         <circle cx="256" cy="256" r="256" fill="#fff" />
       </mask>
@@ -35,6 +36,7 @@ export function LangTrIcon() {
       height="20"
       viewBox="0 0 512 512"
     >
+      <title>Türkçe</title>
       <mask id="a">
         <circle cx="256" cy="256" r="256" fill="#fff" />
       </mask>

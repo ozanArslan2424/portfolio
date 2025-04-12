@@ -1,6 +1,6 @@
 import { useMemo } from "react";
 
-export function Blobs() {
+export function BackgroundBlobs() {
   const MAX_S = 150;
   const MIN_S = 70;
   const MIN_P = 5;

@@ -22,7 +22,7 @@ export function LangToggle() {
       className="circle-button overflow-hidden"
       onClick={() => setLang(lang === "en" ? "tr" : "en")}
     >
-      {lang === "tr" ? <Icon variant="lang-en" /> : <Icon variant="lang-tr" />}
+      <Icon variant={lang === "tr" ? "lang-en" : "lang-tr"} />
       <span className="sr-only">{lang === "tr" ? "English" : "Türkçe"}</span>
     </button>
   );
