@@ -5,13 +5,14 @@ import relativeTime from "dayjs/plugin/relativeTime";
 import timezone from "dayjs/plugin/timezone";
 import utc from "dayjs/plugin/utc";
 import advancedFormat from "dayjs/plugin/advancedFormat";
+import i18n from "client/lib/i18n.config";
 
 dayjs.extend(advancedFormat);
 dayjs.extend(utc);
 dayjs.extend(timezone);
 dayjs.extend(isBetween);
 dayjs.extend(relativeTime);
-dayjs.locale("en");
+dayjs.locale(i18n.language);
 
 type DInput = dayjs.ConfigType;
 
