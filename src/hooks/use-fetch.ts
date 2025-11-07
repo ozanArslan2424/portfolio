@@ -10,13 +10,17 @@ export function useFetch<T>(req: Request) {
 			try {
 				const res = await fetch(req);
 				const data = await res.json();
+				if (!res.ok) {
+					setState({ status: "error", error: new Error(data) });
+				}
 				setState({ status: "success", data });
 			} catch (err) {
 				setState({ status: "error", error: err as Error });
 			}
 		}
 		fetchPosts();
-	}, [req]);
+		// eslint-disable-next-line react-hooks/exhaustive-deps
+	}, []);
 
-	return state
+	return state;
 }
