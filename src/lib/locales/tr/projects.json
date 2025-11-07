@@ -1,0 +1,164 @@
+{
+	"noIcon": "İkon Yok",
+	"techUsed": "Kullanılan teknolojiler",
+	"images": "Uygulama görselleri",
+	"links": "Proje bağlantıları",
+	"items": [
+		{
+			"title": "Refination",
+			"description": "Refination, Scrum projeler için bir refinement tool'udur. Bu tool ile takımlar bir araya gelip yapılacak görevlerini planlayabilir, story point'lerini belirleyebilirler. Bu projeyi frontend geliştirici olarak çalıştığım mfatech'te kullanıyorduk. OLabildiğince hızlı çıkması için tasarımı minimal tuttum ve eğlenceli emoji'ler kullandım, eş zamanlılık için Firebase kullandım.",
+			"tech": ["React", "Bun", "Firebase", "Tailwind CSS", "Websockets", "Vite"],
+			"links": [
+				{ "label": "GitHub", "href": "https://github.com/ozanArslan2424/refination" },
+				{ "label": "Live", "href": "https://refination.vercel.app/" }
+			],
+			"icon": {
+				"alt": "icon",
+				"src": "webp/ref0.webp"
+			},
+			"images": [
+				{
+					"alt": "Landing page",
+					"src": "webp/ref1.webp"
+				},
+				{
+					"alt": "Set username page",
+					"src": "webp/ref2.webp"
+				},
+				{
+					"alt": "Idle voting page",
+					"src": "webp/ref3.webp"
+				},
+				{
+					"alt": "Active voting page",
+					"src": "webp/ref4.webp"
+				},
+				{
+					"alt": "Results",
+					"src": "webp/ref5.webp"
+				}
+			]
+		},
+		{
+			"title": "Tabula Notlar",
+			"description": "Tabula Notlar, kişisel kullanım için oluşturulmuş markdown esintili bir not alma uygulamasıdır. Not tutarak çalışmak benim için vazgeçilmez bir alışkanlık ve kullandığım hiçbir markdown düzenleyici tam ihtiyaçlarımı karşılamıyordu. Bu sebeple Tabula'yı oluşturdum. Aynı defter sayfaları gibi yana ve aşağı doğru ilerleme özelliğiyle ihtiyaçlarım için ideal. Bu uygulama yalnızca benim ihtiyaçlarımı karşılamak için oluşturuldu. İlerleyen zamanlarda belki başka kullanıcılara açık hale getirebilirim. Site şu anda canlı değil.",
+			"tech": ["Next.js", "TypeScript", "Tailwind CSS", "Vercel", "Postgresql"],
+			"links": [
+				{ "label": "GitHub", "href": "https://github.com/ozanArslan2424/tabula-v2" },
+				{ "label": "Live", "href": "https://tabulanotes.vercel.app" }
+			],
+			"icon": {
+				"alt": "icon",
+				"src": "icons/tabulaicon.svg"
+			},
+			"images": [
+				{
+					"alt": "Landing page",
+					"src": "webp/tabula4.webp"
+				},
+				{
+					"alt": "Landing page",
+					"src": "webp/tabula5.webp"
+				},
+				{
+					"alt": "Library page",
+					"src": "webp/tabula0.webp"
+				},
+				{
+					"alt": "Book page - dark",
+					"src": "webp/tabula1.webp"
+				},
+				{
+					"alt": "Book page - dark",
+					"src": "webp/tabula2.webp"
+				},
+				{
+					"alt": "Book page - light",
+					"src": "webp/tabula3.webp"
+				}
+			]
+		},
+		{
+			"title": "TPÖÇG Blog Makinesi v2",
+			"description": "Blog Makinesi'nin Vite + React ile oluşturulmuş ikinci versiyonu. Türk Psikoloji Öğrencileri Çalışma Grubu (TPÖÇG) Yayın Tasarım Ekibi'nde 1 sene boyunca liderlik yaparken en sık ve hızlı halletmemiz gereken iş Instagram gönderileri için blog yazılarının şablonunu hazırlamaktı. Bunun gibi basit bir iş için bizden her seferinde Photoshop kullanmamız bekleniyordu. Büyük bir zaman kaybı olduğunu düşündüm ve bu durumu çözmek için bu uygulamanın ilk versiyonunu yaptım. Tasarımı daha güzel olmasının yanında React ile yapıldığı için daha hızlı ve güvenilir bir uygulama. Ayrıca yeni eklediğim \"sıfırla\", \"karanlık mod\" ve diğer blog paylaşımı şablonları ile daha kullanışlı bir hal aldı.",
+			"tech": ["Vite", "React", "JavaScript", "NextUI", "GitHub Pages"],
+			"links": [
+				{ "label": "GitHub", "href": "https://github.com/ozanArslan2424/blogmachine-v2" },
+				{ "label": "Live", "href": "https://ozanarslan2424.github.io/blogmachine-v2/" }
+			],
+			"icon": {
+				"alt": "icon",
+				"src": "icons/blogicon.svg"
+			},
+			"images": [
+				{
+					"alt": "Home page - dark",
+					"src": "webp/blogv2dark1.webp"
+				},
+				{
+					"alt": "Home page - light",
+					"src": "webp/blogv2light.webp"
+				},
+				{
+					"alt": "Other templates 1",
+					"src": "webp/blogv2dark2.webp"
+				},
+				{
+					"alt": "Other templates 2",
+					"src": "webp/blogv2dark3.webp"
+				}
+			]
+		},
+		{
+			"title": "TPÖÇG Kart Sitesi",
+			"description": "TPÖÇG Kart, TPÖÇG Sponsorluk Ekibi ve Mali İşler Koordinatörlüğü'nün ortak bir çalışmasıdır. TPÖÇG üyelerine anlaşmalı işletmelerde indirim sağlaması amacını taşır. Kart, bildiğim kadarıyla hiçbir zaman fiziksel hale getirilmese de kartı tanıtmak ve dijital versiyonunu oluşturmak amacıyla, sorumlu ekip arkadaşım tarafından görevlendirilmiştim ve bu siteyi de bu sebeple oluşturdum. Saf HTML, CSS ve JavaScript kullanmanın yanında html2canvas CDN'ini kullanarak kart sahiplerinin kendilerine özel kart görselini kaydedebilmesini amaçladım.",
+			"tech": ["HTML", "CSS", "JavaScript", "GitHub Pages"],
+			"links": [
+				{ "label": "GitHub", "href": "https://github.com/ozanArslan2424/tpocgkart" },
+				{ "label": "Live", "href": "https://ozanarslan2424.github.io/tpocgkart/" }
+			],
+			"icon": {
+				"alt": "icon",
+				"src": "icons/cardicon.svg"
+			},
+			"images": [
+				{
+					"alt": "Intro animation",
+					"src": "webp/card1.webp"
+				},
+				{
+					"alt": "Home page 1",
+					"src": "webp/card2.webp"
+				},
+				{
+					"alt": "Home page 2",
+					"src": "webp/card3.webp"
+				}
+			]
+		},
+		{
+			"title": "TPÖÇG Blog Makinesi v1",
+			"description": "Sadece HTML, CSS ve JavaScript kullanarak yapılmış bu web uygulaması benim ilk projem. Türk Psikoloji Öğrencileri Çalışma Grubu (TPÖÇG) Yayın Tasarım Ekibi'nde 1 sene boyunca liderlik yaparken en sık ve hızlı halletmemiz gereken iş Instagram gönderileri için blog yazılarının şablonunu hazırlamaktı. Bunun gibi basit bir iş için bizden her seferinde Photoshop kullanmamız bekleniyordu. Büyük bir zaman kaybı olduğunu düşündüm ve bu durumu çözmek için bu uygulamayı yaptım. Bu proje uzun sürmeden yetersiz kaldı ve 2. versiyonunu yapmaya başladım.",
+			"tech": ["HTML", "CSS", "JavaScript", "GitHub Pages"],
+			"links": [
+				{ "label": "GitHub", "href": "https://github.com/ozanArslan2424/Blog-Machine/tree/main-edits" },
+				{ "label": "Live", "href": "https://ozanarslan2424.github.io/Blog-Machine/" }
+			],
+			"icon": {
+				"alt": "icon",
+				"src": "icons/blogicon.svg"
+			},
+			"images": []
+		},
+		{
+			"title": "Portfolyo",
+			"description": "Şu anda bulunduğumuz site. Bu proje, benim kendimi tanıtmak ve yaptığım işleri sergilemek amacıyla oluşturduğum bir portfolyo sitesi. Tasarım konusunda oldukça yakıştırdığım krem ve bal renkleri kullanmaya karar verdim.",
+			"tech": ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
+			"links": [
+				{ "label": "GitHub", "href": "https://github.com/ozanArslan2424/portfolio" },
+				{ "label": "Live", "href": "https://ozanarslan.vercel.app" }
+			],
+			"images": []
+		}
+	]
+}

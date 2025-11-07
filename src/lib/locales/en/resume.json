@@ -1,0 +1,208 @@
+{
+	"print": {
+		"title": "Resume",
+		"error": "An error occured while downloading the resume."
+	},
+	"otherTitle": "Other",
+	"resume": {
+		"name": "Ozan Arslan",
+		"title": "Web Developer, Psychologist",
+		"contact": {
+			"title": "CONTACT",
+			"items": [
+				{
+					"name": "Email:",
+					"href": "mailto:ozanarslanwork@gmail.com",
+					"label": "ozanarslanwork@gmail.com"
+				},
+				{
+					"name": "LinkedIn:",
+					"href": "https://www.linkedin.com/in/ozan-arslan-214513209/",
+					"label": "ozan-arslan-214513209"
+				},
+				{
+					"name": "GitHub:",
+					"href": "https://github.com/ozanArslan2424",
+					"label": "ozanArslan2424"
+				},
+				{
+					"name": "Portfolio:",
+					"href": "https://ozanarslan.vercel.app/en",
+					"label": "ozanarslan.vercel.app"
+				}
+			]
+		},
+		"languages": {
+			"title": "LANGUAGES",
+			"items": [
+				{
+					"name": "Turkish",
+					"level": "Native"
+				},
+				{
+					"name": "English",
+					"level": "C2 Professional"
+				},
+				{
+					"name": "German",
+					"level": "Beginner"
+				}
+			]
+		},
+		"tech": {
+			"title": "TECH STACK",
+			"items": [
+				{
+					"name": "Next.js",
+					"level": 5
+				},
+				{
+					"name": "React",
+					"level": 5
+				},
+				{
+					"name": "Typescript",
+					"level": 5
+				},
+				{
+					"name": "HTML, CSS, JS",
+					"level": 5
+				},
+				{
+					"name": "Node.js",
+					"level": 4
+				},
+				{
+					"name": "Elysia.js",
+					"level": 4
+				}
+			]
+		},
+		"tool": {
+			"title": "TOOLS",
+			"items": [
+				{
+					"name": "MS office",
+					"level": 5
+				},
+				{
+					"name": "Google Drive",
+					"level": 5
+				},
+				{
+					"name": "Photoshop",
+					"level": 3
+				},
+				{
+					"name": "Illustrator",
+					"level": 4
+				},
+				{
+					"name": "InDesign",
+					"level": 4
+				},
+				{
+					"name": "Figma",
+					"level": 4
+				},
+				{
+					"name": "Canva",
+					"level": 5
+				}
+			]
+		},
+		"cert": {
+			"title": "CERTIFICATES",
+			"items": [
+				{
+					"name": "ODTÜ EPE 2023",
+					"info": "93 / 100"
+				},
+				{
+					"name": "ALES 2022",
+					"info": "90 / 100"
+				},
+				{
+					"name": "KPSS Lisans 2024",
+					"info": "82 / 100"
+				},
+				{
+					"name": "Res. Web Design",
+					"info": "freeCodeCamp"
+				}
+			]
+		},
+		"hob": {
+			"title": "HOBBIES",
+			"items": ["photography", "cycling", "swimming", "reading", "hiking", "cooking", "coding"]
+		},
+		"edu": {
+			"title": "EDUCATION",
+			"items": [
+				{
+					"name": "Middle East Technical University",
+					"info": "Psychology, CGPA: 3.43",
+					"date": "2019 - 2023"
+				},
+				{
+					"name": "Uniwersytet Kazimierza Wielkiego",
+					"info": "Erasmus, Avg: 4.7 / 5",
+					"date": "2022"
+				},
+				{
+					"name": "Kabataş Erkek High School",
+					"info": "Avg: 93.07",
+					"date": "2014 - 2019"
+				}
+			]
+		},
+		"exp": {
+			"title": "EXPERIENCE",
+			"items": [
+				{
+					"name": "mfatech.co, Frontend Developer",
+					"info": "I worked as a Frontend Developer at Mfatech for one year. I quickly expanded my scope of responsibility and began actively contributing to backend development projects. I gained solid experience in the Scrum methodology and professional Git usage, while also strengthening my teamwork and project management skills through involvement in volunteer projects.",
+					"date": "2024 - 2025"
+				},
+				{
+					"name": "Invisible Technologies",
+					"info": "Advanced AI Trainer",
+					"date": "2024 - 2025"
+				},
+				{
+					"name": "Koçum Yanımda, Psychologist",
+					"info": "Online guidance counseling for Doping Hafıza students.",
+					"date": "2023 - 2024"
+				},
+				{
+					"name": "Çankaya Healthy Life Center, Intern Psychologist",
+					"info": "A clinical internship where I learned about social work, speech therapy, and infectious diseases, and prepared and presented an educational presentation on neuropsychoimmunology.",
+					"date": "2023"
+				},
+				{
+					"name": "Yenişehir Culture Center, Barista",
+					"info": "",
+					"date": "2023"
+				},
+				{
+					"name": "METU Computer Center, Part-Time Student Employee",
+					"info": "I was an office worker, helping students and alumni register for the school's services using the online system and verifying their membership cards.",
+					"date": "2022"
+				}
+			]
+		},
+		"soc": {
+			"title": "SOCIETIES",
+			"items": [
+				"METU Student Representatives Board - Psychology Students Representative",
+				"Turkish Psy. Students Work Group (TPÖÇG) - Publications Design, Store Design, and Translation Teams Leader",
+				"METU Language Society",
+				"METU Mountaineering and Winter Sports Club",
+				"METU Literature Society",
+				"Üniversiteyi Bana Sor",
+				"Guguk Magazine (High school magazine)",
+				"Galatasaray Swim Club"
+			]
+		}
+	}
+}

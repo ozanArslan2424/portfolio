@@ -1,0 +1,208 @@
+{
+	"print": {
+		"title": "Özgeçmiş",
+		"error": "Özgeçmiş indirilirken bir hata oluştu."
+	},
+	"otherTitle": "Diğer",
+	"resume": {
+		"name": "Ozan Arslan",
+		"title": "Web Geliştirici, Psikolog",
+		"contact": {
+			"title": "İLETİŞİM",
+			"items": [
+				{
+					"name": "Email:",
+					"href": "mailto:ozanarslanwork@gmail.com",
+					"label": "ozanarslanwork@gmail.com"
+				},
+				{
+					"name": "LinkedIn:",
+					"href": "https://www.linkedin.com/in/ozan-arslan-214513209/",
+					"label": "ozan-arslan-214513209"
+				},
+				{
+					"name": "GitHub:",
+					"href": "https://github.com/ozanArslan2424",
+					"label": "ozanArslan2424"
+				},
+				{
+					"name": "Portföy:",
+					"href": "https://ozanarslan.vercel.app/en",
+					"label": "ozanarslan.vercel.app"
+				}
+			]
+		},
+		"languages": {
+			"title": "DİLLER",
+			"items": [
+				{
+					"name": "Türkçe",
+					"level": "Ana Dil"
+				},
+				{
+					"name": "İngilizce",
+					"level": "C2 Profesyonel"
+				},
+				{
+					"name": "Almanca",
+					"level": "Başlangıç"
+				}
+			]
+		},
+		"tech": {
+			"title": "YAZILIM BİLGİSİ",
+			"items": [
+				{
+					"name": "Next.js",
+					"level": 5
+				},
+				{
+					"name": "React",
+					"level": 5
+				},
+				{
+					"name": "Typescript",
+					"level": 5
+				},
+				{
+					"name": "HTML, CSS, JS",
+					"level": 5
+				},
+				{
+					"name": "Node.js",
+					"level": 4
+				},
+				{
+					"name": "Elysia.js",
+					"level": 4
+				}
+			]
+		},
+		"tool": {
+			"title": "PROGRAMLAR",
+			"items": [
+				{
+					"name": "MS office",
+					"level": 5
+				},
+				{
+					"name": "Google Drive",
+					"level": 5
+				},
+				{
+					"name": "Photoshop",
+					"level": 3
+				},
+				{
+					"name": "Illustrator",
+					"level": 4
+				},
+				{
+					"name": "InDesign",
+					"level": 4
+				},
+				{
+					"name": "Figma",
+					"level": 4
+				},
+				{
+					"name": "Canva",
+					"level": 5
+				}
+			]
+		},
+		"cert": {
+			"title": "SERTİFİKALAR",
+			"items": [
+				{
+					"name": "ODTÜ EPE 2023",
+					"info": "93 / 100"
+				},
+				{
+					"name": "ALES 2022",
+					"info": "90 / 100"
+				},
+				{
+					"name": "KPSS Lisans 2024",
+					"info": "82 / 100"
+				},
+				{
+					"name": "Res. Web Design",
+					"info": "freeCodeCamp"
+				}
+			]
+		},
+		"hob": {
+			"title": "HOBİLER",
+			"items": ["fotoğrafçılık", "bisiklet", "yüzme", "edebiyat", "doğa yürüyüşleri", "yemek yapma", "kodlama"]
+		},
+		"edu": {
+			"title": "EĞİTİM",
+			"items": [
+				{
+					"name": "Orta Doğu Teknik Üniversitesi",
+					"info": "Psikoloji, CGPA: 3.43",
+					"date": "2019 - 2023"
+				},
+				{
+					"name": "Uniwersytet Kazimierza Wielkiego",
+					"info": "Erasmus, Ort: 4.7 / 5",
+					"date": "2022"
+				},
+				{
+					"name": "Kabataş Erkek Lisesi",
+					"info": "Mezuniyet: 93.07",
+					"date": "2014 - 2019"
+				}
+			]
+		},
+		"exp": {
+			"title": "DENEYİM",
+			"items": [
+				{
+					"name": "mfatech.co, Frontend Developer",
+					"info": "Mfatech'te bir yıl boyunca Frontend Developer rolünde görev aldım. Kısa sürede sorumluluk alanımı genişleterek backend geliştirme projelerine de aktif katkı sağladım. Scrum metodolojisi ve profesyonel Git kullanımı konularında sağlam deneyim edindim; aynı zamanda gönüllü projelerde de yer alarak takım çalışması ve proje yönetimi becerilerimi pekiştirdim.",
+					"date": "2024 - 2025"
+				},
+				{
+					"name": "Invisible Technologies",
+					"info": "Gelişmiş AI Eğitmeni",
+					"date": "2024 - 2025"
+				},
+				{
+					"name": "Koçum Yanımda, Psikolog",
+					"info": "Doping Hafıza öğrencileri için çevrimiçi psikolojik danışmanlık ve rehberlik yaptım.",
+					"date": "2023 - 2024"
+				},
+				{
+					"name": "Çankaya Sağlıklı Yaşam Merkezi, Stajyer Psikolog",
+					"info": "Sosyal hizmet, konuşma terapisi, bulaşıcı hastalıklar konularını öğrendiğim ve nöropsikoimmunoloji konusunda eğitim sunumu hazırladığım ve sunduğum klinik stajım.",
+					"date": "2023"
+				},
+				{
+					"name": "Yenişehir Kültür Merkezi, Barista",
+					"info": "",
+					"date": "2023"
+				},
+				{
+					"name": "ODTÜ Bilgisayar Merkezi, Yarı Zamanlı Öğrenci Çalışanı",
+					"info": "Öğrenci ve mezunların çevrimiçi sistemi kullanarak okul hizmetlerine kaydolmalarına ve doğrulamalarına yardımcı oldum.",
+					"date": "2022"
+				}
+			]
+		},
+		"soc": {
+			"title": "TOPLULUKLAR",
+			"items": [
+				"ODTÜ Öğrenci Temsilciliği Kurulu - Psikoloji Bölüm Temsilcisi",
+				"Türk Psikoloji Öğr. Çalışma Grubu (TPÖÇG) - Yayın Tasarım, Store Tasarım ve Çeviri Ekipleri Lideri",
+				"ODTÜ Dil Topluluğu",
+				"ODTÜ Dağcılık ve Kış Sporları Kulübü",
+				"ODTÜ Edebiyat Topluluğu",
+				"Üniversiteyi Bana Sor",
+				"Guguk Dergi (Lise dergisi)",
+				"Galatasaray Yüzme Kulübü"
+			]
+		}
+	}
+}

@@ -1,0 +1,256 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+	--radius-sm: calc(var(--radius) - 4px);
+	--radius-md: calc(var(--radius) - 2px);
+	--radius-lg: var(--radius);
+	--radius-xl: calc(var(--radius) + 4px);
+	--color-background: var(--background);
+	--color-foreground: var(--foreground);
+	--color-border: var(--border);
+	--color-ring: var(--ring);
+	--color-primary: var(--primary);
+	--color-primary-foreground: var(--primary-foreground);
+	--color-secondary: var(--secondary);
+	--color-secondary-foreground: var(--secondary-foreground);
+	--color-accent: var(--accent);
+	--color-accent-foreground: var(--accent-foreground);
+}
+
+:root {
+	--background: hsl(45, 60%, 98%);
+	--foreground: hsl(29, 25%, 16%);
+	--border: hsl(40, 40%, 85%);
+	--ring: hsl(35, 80%, 60%);
+	--primary: hsl(35, 80%, 20%);
+	--primary-foreground: hsl(45, 55%, 97%);
+	--secondary: hsl(40, 40%, 90%);
+	--secondary-foreground: hsl(30, 25%, 25%);
+	--accent: hsl(30, 60%, 50%);
+	--accent-foreground: hsl(45, 55%, 97%);
+
+	--radius: 0.65rem;
+}
+
+.dark {
+	--background: hsl(30, 25%, 12%);
+	--foreground: hsl(45, 30%, 95%);
+	--border: hsl(35, 30%, 25%);
+	--ring: hsl(35, 70%, 55%);
+	--primary: hsl(35, 70%, 55%);
+	--primary-foreground: hsl(34, 24%, 6%);
+	--secondary: hsl(35, 30%, 20%);
+	--secondary-foreground: hsl(45, 30%, 90%);
+	--accent: hsl(40, 60%, 75%);
+	--accent-foreground: hsl(34, 24%, 6%);
+}
+
+@layer base {
+	html {
+		@media print {
+			font-size: 13px;
+		}
+	}
+
+	@keyframes springSpin {
+		0% {
+			transform: rotate(0deg) scale(1);
+		}
+		100% {
+			transform: rotate(360deg) scale(1);
+		}
+	}
+
+	.spring-spin-once {
+		animation: springSpin 1s ease;
+		animation-delay: 0.5s;
+	}
+
+	* {
+		@apply border-border outline-ring/50 font-sans antialiased;
+	}
+	body {
+		@apply bg-background text-foreground;
+	}
+
+	input,
+	textarea {
+		@apply hover:border-primary ring-ring rounded-md border px-4 py-2 text-sm transition-colors outline-none focus:ring;
+	}
+
+	button,
+	.button {
+		@apply cursor-pointer;
+	}
+
+	button,
+	.button,
+	.chip {
+		@apply inline-flex items-center justify-center gap-2 border whitespace-nowrap transition-all disabled:opacity-50;
+
+		&:not(.secondary):not(.accent):not(.ghost) {
+			&:not(.soft) {
+				@apply border-primary bg-primary text-primary-foreground hover:bg-primary/70 active:opacity-90;
+			}
+			&.soft {
+				@apply border-primary/10 bg-primary/10 text-primary hover:text-foreground active:opacity-90;
+			}
+		}
+
+		&.ghost {
+			@apply text-foreground hover:bg-primary/20 border-transparent bg-transparent active:opacity-90;
+		}
+
+		&.secondary {
+			@apply border-secondary bg-secondary text-secondary-foreground hover:bg-secondary/70 active:opacity-90;
+		}
+
+		&.accent {
+			@apply border-accent bg-accent text-accent-foreground hover:bg-accent/70 active:opacity-90;
+		}
+
+		&:not(.xs):not(.sm):not(.icon):not(.square) {
+			@apply h-10 rounded-md px-3 font-bold;
+		}
+
+		&.xs {
+			@apply rounded px-2 py-1 text-xs font-semibold;
+		}
+
+		&.sm {
+			@apply h-7 rounded-md px-2 text-sm font-bold;
+		}
+
+		&.icon {
+			@apply h-7 w-7 shrink-0 rounded-full px-1;
+		}
+
+		&.square {
+			@apply h-10 w-10 shrink-0 rounded-md p-3;
+		}
+
+		svg {
+			@apply pointer-events-none size-4 shrink-0;
+		}
+	}
+
+	.card {
+		@apply bg-background text-foreground overflow-hidden rounded-lg border shadow-sm;
+
+		header {
+			@apply bg-secondary text-secondary-foreground relative px-5 py-4;
+
+			h1 {
+				@apply text-2xl font-black;
+			}
+
+			h2 {
+				@apply text-xl font-black tracking-wide;
+			}
+		}
+	}
+
+	.print-target {
+		@media print {
+			margin: 24px;
+		}
+	}
+
+	article.resume {
+		width: 100%;
+		aspect-ratio: 1000/1414;
+		@media print {
+			background-color: white !important;
+		}
+
+		header {
+			@media print {
+				background-color: white !important;
+			}
+
+			@apply bg-secondary relative p-4;
+
+			h1 {
+				@apply font-bold sm:text-5xl;
+			}
+			p {
+				@apply text-foreground/90;
+			}
+		}
+
+		main {
+			@apply grid grid-cols-3 gap-8 p-4;
+
+			div.left {
+				@apply order-2 col-span-3 sm:order-1 sm:col-span-2;
+				section {
+					@apply mb-4;
+
+					h2 {
+						@apply mb-1 font-black;
+					}
+
+					p {
+						@apply text-sm;
+					}
+
+					ul {
+						li {
+							@apply mb-1.5;
+
+							h3 {
+								@apply flex justify-between font-bold;
+							}
+
+							p {
+								@apply text-sm text-pretty;
+							}
+						}
+					}
+				}
+			}
+
+			div.right {
+				@apply z-10 order-1 col-span-3 sm:order-2 sm:col-span-1 sm:-mt-24;
+
+				img {
+					@apply mb-4 aspect-square w-full;
+				}
+
+				section {
+					@apply mb-4;
+
+					h2 {
+						@apply mb-1 text-base font-black;
+					}
+
+					p {
+						@apply text-sm;
+					}
+
+					ul {
+						li {
+							@apply mb-1 flex justify-between;
+
+							h4 {
+								@apply text-sm font-bold;
+							}
+
+							p,
+							a {
+								@apply text-sm;
+							}
+
+							a {
+								@apply hover:underline;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
