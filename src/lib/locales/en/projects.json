@@ -5,6 +5,14 @@
 	"links": "Project links",
 	"items": [
 		{
+			"title": "Web Developer Experience at Mfatech",
+			"description": "During my time at Mfatech as a web developer, I worked primarily on a site-builder project where I designed and implemented a dynamic intranet website generation system. This project required combining a wide range of technologies. I built an HTML data-attribute–based framework to enable dynamic page rendering, created a selector-scoping mechanism to prevent style conflicts across components, developed a GrapesJS-based visual editor to provide a user-friendly editing experience, and leveraged web APIs such as IndexedDB to improve page load performance. In addition, I gained substantial experience working within a team, improved my Git workflow, and expanded my knowledge into areas such as CI/CD and Redis thanks to my colleagues. Across other projects, I also had the opportunity to work with WebSocket APIs, deepen my understanding of React Native, and gain introductory experience with Python Flask. Throughout this period, I developed strong skills in scalability, data integrity, and building sustainable application architectures.",
+			"tech": ["Vite", "React", "Next.js", "Nest.js", "Express", "Node.js", "Postgresql", "React Native", "MaterialUI"],
+			"links": [],
+			"icon": { "src": "icons/mfatech.png", "alt": "Web Developer at Mfatech" },
+			"images": []
+		},
+		{
 			"title": "Refination",
 			"description": "Refination is a refinement tool for Scrum projects. With this tool, teams can come together to plan their tasks and determine story points. We used this project at mfatech where I worked as a frontend developer. I wanted it to come out as soon as possible so i kept the design minimal with fun emojis and used firebase for real time capabilities.",
 			"tech": ["React", "Bun", "Firebase", "Tailwind CSS", "Websockets", "Vite"],

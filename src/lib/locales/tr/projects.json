@@ -5,6 +5,14 @@
 	"links": "Proje bağlantıları",
 	"items": [
 		{
+			"title": "Mfatech'te Web Geliştiriciliği Deneyimi",
+			"description": "Mfatech’te web yazılımcısı olarak çalıştığım dönemde, en uzun süre yer aldığım projede bir site builder yapısı kurarak bu uygulama ile dinamik bir intranet web sitesi geliştirdim. Bu proje birçok farklı teknolojiyi bir araya getirmemi gerektirdi. Oluşturulan sitelerin dinamik yapıda çalışabilmesi için HTML data etiketlerine dayalı bir framework geliştirdim, bileşenlerde stil çakışmalarını önlemek amacıyla selector özelleştirici bir mekanizma oluşturdum, kullanıcı dostu bir kullanım deneyimi sunmak için GrapesJS tabanlı görsel bir editör inşa ettim ve sayfa yükleme hızını artırmak için IndexedDB gibi web API’lerinden yararlandım. Bunlara ek olarak bir ekiple birlikte çalışmanın inceliklerini öğrendim, Git deneyimimi artırdım ve iş arkadaşlarım sayesinde daha önce çalışma fırsatı bulamadığım CI/CD ve Redis gibi alanlarda kendimi geliştirdim. Diğer projelerde WebSocket API’si üzerinde pratik yapma fırsatım oldu, React Native konusunda daha fazla bilgi edinip uygulama geliştirdim, ayrıca sınırlı da olsa Python Flask ile deneyim kazandım. Bu süreç genel olarak ölçeklenebilirlik, veri bütünlüğü ve sürdürülebilir yazılım geliştirme konularında değerli bir deneyim edinmemi sağladı.",
+			"tech": ["Vite", "React", "Next.js", "Nest.js", "Express", "Node.js", "Postgresql", "React Native", "MaterialUI"],
+			"links": [],
+			"icon": { "src": "icons/mfatech.png", "alt": "Mfatech'te Web Geliştirici" },
+			"images": []
+		},
+		{
 			"title": "Refination",
 			"description": "Refination, Scrum projeler için bir refinement tool'udur. Bu tool ile takımlar bir araya gelip yapılacak görevlerini planlayabilir, story point'lerini belirleyebilirler. Bu projeyi frontend geliştirici olarak çalıştığım mfatech'te kullanıyorduk. OLabildiğince hızlı çıkması için tasarımı minimal tuttum ve eğlenceli emoji'ler kullandım, eş zamanlılık için Firebase kullandım.",
 			"tech": ["React", "Bun", "Firebase", "Tailwind CSS", "Websockets", "Vite"],

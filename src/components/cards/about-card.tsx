@@ -10,17 +10,19 @@ export function AboutCard() {
 	const { t } = useTranslation("about");
 
 	const skills = [
-		"Git",
 		"HTML",
 		"CSS",
 		"JavaScript",
 		"TypeScript",
 		"React",
-		"Next.js",
 		"React Native",
+		"Next.js",
 		"Node.js",
+		"Nest.js",
 		"Express",
+		"Hono",
 		"Elysia.js",
+		"Git",
 		"Tailwind CSS",
 		"Svelte",
 		"Go",
