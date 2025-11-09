@@ -23,7 +23,7 @@ export function BlogPage() {
 					<ul className="flex flex-col gap-4">
 						{state.data.map((blog, i) => (
 							<li key={i}>
-								<BlogCard blog={blog} />
+								<BlogCard blog={blog} index={i} />
 							</li>
 						))}
 					</ul>

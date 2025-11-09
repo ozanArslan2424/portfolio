@@ -5,8 +5,8 @@ import type { BlogPostType } from "client/pages/blog/blog.type";
 import { ChevronDownIcon } from "lucide-react";
 import { useState, useRef, useEffect } from "react";
 
-export function BlogCard({ blog }: { blog: BlogPostType }) {
-	const [expanded, setExpanded] = useState(false);
+export function BlogCard({ blog, index }: { blog: BlogPostType; index: number }) {
+	const [expanded, setExpanded] = useState(index === 0);
 	const [contentHeight, setContentHeight] = useState(0);
 	const contentRef = useRef<HTMLDivElement>(null);
 
