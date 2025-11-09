@@ -51,7 +51,7 @@
 @layer base {
 	html {
 		@media print {
-			font-size: 13px;
+			font-size: 13.5px;
 		}
 	}
 
@@ -182,7 +182,7 @@
 		}
 
 		main {
-			@apply grid grid-cols-3 gap-8 p-4;
+			@apply grid grid-cols-3 gap-10 p-4;
 
 			div.left {
 				@apply order-2 col-span-3 sm:order-1 sm:col-span-2;
@@ -214,7 +214,7 @@
 			}
 
 			div.right {
-				@apply z-10 order-1 col-span-3 sm:order-2 sm:col-span-1 sm:-mt-24;
+				@apply z-10 order-1 col-span-3 sm:order-2 sm:col-span-1 sm:-mt-26;
 
 				img {
 					@apply mb-4 aspect-square w-full;
