@@ -5,6 +5,29 @@
 	"links": "Proje bağlantıları",
 	"items": [
 		{
+			"title": "Stumble Kart Oyunu",
+			"description": "Tabu oyunundan esinlenilmiş bir kelime tahmin oyunu. Başka bir siteden kendisine kart destesi oluşturan bir arkadaşıma denk gelmiştim. Bu diğer sitede UX açısından çok eksiklikler vardı ve site oldukça eski gözüküyordu, ben de arkadaşımın kullanması için kendim bir web uygulaması yapmaya karar verdim. Üç temel özelliğe sahip: Kart desteleri (koleksiyonları) oluşturma, kuralları ve temayı değiştirebilme ve oyunu oynama. Backend uygulaması yok, bütün veriler tarayıcı IndexedDB veri tabında saklanıyor.",
+			"tech": ["Vite", "React"],
+			"links": [
+				{ "label": "GitHub", "href": "https://github.com/ozanArslan2424/stumble" },
+				{ "label": "Live", "href": "https://stumble-three.vercel.app" }
+			],
+			"icon": {
+				"src": "icons/stumbleicon.png",
+				"alt": "Stumble Card Game"
+			},
+			"images": [
+				{
+					"alt": "Desktop view",
+					"src": "webp/stumble1.webp"
+				},
+				{
+					"alt": "Mobile view",
+					"src": "webp/stumble2.webp"
+				}
+			]
+		},
+		{
 			"title": "Mfatech'te Web Geliştiriciliği Deneyimi",
 			"description": "Mfatech’te web yazılımcısı olarak çalıştığım dönemde, en uzun süre yer aldığım projede bir site builder yapısı kurarak bu uygulama ile dinamik bir intranet web sitesi geliştirdim. Bu proje birçok farklı teknolojiyi bir araya getirmemi gerektirdi. Oluşturulan sitelerin dinamik yapıda çalışabilmesi için HTML data etiketlerine dayalı bir framework geliştirdim, bileşenlerde stil çakışmalarını önlemek amacıyla selector özelleştirici bir mekanizma oluşturdum, kullanıcı dostu bir kullanım deneyimi sunmak için GrapesJS tabanlı görsel bir editör inşa ettim ve sayfa yükleme hızını artırmak için IndexedDB gibi web API’lerinden yararlandım. Bunlara ek olarak bir ekiple birlikte çalışmanın inceliklerini öğrendim, Git deneyimimi artırdım ve iş arkadaşlarım sayesinde daha önce çalışma fırsatı bulamadığım CI/CD ve Redis gibi alanlarda kendimi geliştirdim. Diğer projelerde WebSocket API’si üzerinde pratik yapma fırsatım oldu, React Native konusunda daha fazla bilgi edinip uygulama geliştirdim, ayrıca sınırlı da olsa Python Flask ile deneyim kazandım. Bu süreç genel olarak ölçeklenebilirlik, veri bütünlüğü ve sürdürülebilir yazılım geliştirme konularında değerli bir deneyim edinmemi sağladı.",
 			"tech": ["Vite", "React", "Next.js", "Nest.js", "Express", "Node.js", "Postgresql", "React Native", "MaterialUI"],

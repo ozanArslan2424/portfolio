@@ -34,7 +34,7 @@ export function ProjectCard({ project }: { project: ProjectType }) {
 						<h2>{project.title}</h2>
 						<nav className="flex items-center gap-3" aria-label={t("links")}>
 							{project.links.map((link) => (
-								<a key={link.href} href={link.href} className="button sm accent">
+								<a key={link.href} href={link.href} target="_blank" className="button sm accent">
 									{link.label}
 								</a>
 							))}
