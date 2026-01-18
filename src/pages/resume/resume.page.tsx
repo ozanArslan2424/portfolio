@@ -1,5 +1,6 @@
 import { LangSwitch } from "client/components/lang-switch";
 import { ThemeSwitch } from "client/components/theme-switch";
+import { CertificateFrame } from "client/pages/resume/certificate-frame";
 import { Rating } from "client/pages/resume/rating";
 import { useRef } from "react";
 import { useTranslation } from "react-i18next";
@@ -49,11 +50,12 @@ export function ResumePage() {
 	const certificateItems = t("resume.cert.items", { returnObjects: true }) as {
 		name: string;
 		info: string;
+		href: string;
 	}[];
 	const hobItems = t("resume.hob.items", { returnObjects: true }) as string[];
 
 	return (
-		<div className="flex flex-col gap-2 sm:-mt-8">
+		<div className="flex flex-col gap-2 scroll-smooth sm:-mt-8">
 			<div className="flex items-center justify-end gap-2">
 				<LangSwitch className="ghost" />
 				<ThemeSwitch className="ghost" />
@@ -178,7 +180,7 @@ export function ResumePage() {
 									<ul>
 										{certificateItems.map((item, i) => (
 											<li key={i}>
-												<h4>{item.name}</h4>
+												<h4>{item.href !== "" ? <a href={item.href}>{item.name}</a> : item.name}</h4>
 												<p>{item.info}</p>
 											</li>
 										))}
@@ -188,6 +190,12 @@ export function ResumePage() {
 						</main>
 					</article>
 				</div>
+			</div>
+
+			<div className="grid gap-3">
+				<CertificateFrame id="btkjavascript" />
+				<CertificateFrame id="linkedinjavascript" />
+				<CertificateFrame id="linkedinwebapi" />
 			</div>
 		</div>
 	);

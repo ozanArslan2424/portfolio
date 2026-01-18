@@ -116,19 +116,38 @@
 			"items": [
 				{
 					"name": "ODTÜ EPE 2023",
-					"info": "93 / 100"
+					"info": "93 / 100",
+					"href": ""
 				},
 				{
 					"name": "ALES 2022",
-					"info": "90 / 100"
+					"info": "90 / 100",
+					"href": ""
 				},
 				{
 					"name": "KPSS Lisans 2024",
-					"info": "82 / 100"
+					"info": "82 / 100",
+					"href": ""
 				},
 				{
-					"name": "Res. Web Design",
-					"info": "freeCodeCamp"
+					"name": "Responsive Web Design",
+					"info": "freeCodeCamp",
+					"href": "#freeCodeCamp"
+				},
+				{
+					"name": "Javascript Certificate",
+					"info": "BTK Akademi",
+					"href": "#btk"
+				},
+				{
+					"name": "Javascript Certificate",
+					"info": "LinkedIn",
+					"href": "#linkedinjavascript"
+				},
+				{
+					"name": "Programming Essentials",
+					"info": "LinkedIn",
+					"href": "#linkedinwebapi"
 				}
 			]
 		},
