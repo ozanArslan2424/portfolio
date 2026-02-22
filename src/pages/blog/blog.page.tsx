@@ -15,19 +15,19 @@ export function BlogPage() {
 				<AboutCard />
 			</div>
 			<div className="col-span-3 md:col-span-2">
-				{state.status === "pending" ? (
-					<PendingCard />
-				) : state.status === "error" ? (
-					<ErrorCard error={state.error} />
-				) : (
-					<ul className="flex flex-col gap-4">
-						{state.data.map((blog, i) => (
+				<ul className="flex w-full flex-col gap-4">
+					{state.status === "pending" ? (
+						<PendingCard />
+					) : state.status === "error" ? (
+						<ErrorCard error={state.error} />
+					) : (
+						state.data.map((blog, i) => (
 							<li key={i}>
 								<BlogCard blog={blog} index={i} />
 							</li>
-						))}
-					</ul>
-				)}
+						))
+					)}
+				</ul>
 			</div>
 		</div>
 	);
