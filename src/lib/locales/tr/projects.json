@@ -5,6 +5,17 @@
 	"links": "Proje bağlantıları",
 	"items": [
 		{
+			"title": "Corpus",
+			"description": "Bun runtime için bir TypeScript backend framework'ü. Validasyon, routing, middleware'ler, websocket'ler ve response abstraction'ları sağlayan objeler çevresinde kuruldu. Hızlıca sunucu ayağa kaldırmak için sade bir pakettir. Kasıtlı olarak içermediği şeyler: ORM, kimlik doğrulama sistemi, yeni bir doğrulama kütüphanesi veya başka herhangi bir üst düzey soyutlama. Yalnızca request ve response döngüsünü gereksiz yük olmadan yönetmek için gereken temel bileşenlerden oluşur. Daha fazla bilgi için dokümantasyon sitesine göz atabilirsiniz.",
+			"tech": ["TypeScript", "Bun"],
+			"links": [
+				{ "label": "GitHub", "href": "https://github.com/ozanArslan2424/corpus" },
+				{ "label": "npm", "href": "https://www.npmjs.com/package/@ozanarslan/corpus" },
+				{ "label": "Docs", "href": "https://corpus-production.up.railway.app/" }
+			],
+			"images": []
+		},
+		{
 			"title": "Stumble Kart Oyunu",
 			"description": "Tabu oyunundan esinlenilmiş bir kelime tahmin oyunu. Başka bir siteden kendisine kart destesi oluşturan bir arkadaşıma denk gelmiştim. Bu diğer sitede UX açısından çok eksiklikler vardı ve site oldukça eski gözüküyordu, ben de arkadaşımın kullanması için kendim bir web uygulaması yapmaya karar verdim. Üç temel özelliğe sahip: Kart desteleri (koleksiyonları) oluşturma, kuralları ve temayı değiştirebilme ve oyunu oynama. Backend uygulaması yok, bütün veriler tarayıcı IndexedDB veri tabında saklanıyor.",
 			"tech": ["Vite", "React"],
